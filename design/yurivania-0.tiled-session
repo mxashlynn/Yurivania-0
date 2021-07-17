@@ -1,0 +1,144 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "backgrounds/area-skyclad_tower-main.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "backgrounds"
+    ],
+    "exportAsImage.useCurrentScale": false,
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/tiles/yurivania-0.tsx": {
+            "scaleInDock": 1
+        },
+        "backgrounds/area-skyclad_tower-balcony.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 78.90909090909092,
+                "y": 70.90909090909092
+            }
+        },
+        "backgrounds/area-skyclad_tower-banner_hall.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79,
+                "y": 71.09090909090908
+            }
+        },
+        "backgrounds/area-skyclad_tower-lunarium.tmx": {
+            "scale": 5.6377976190476184,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.00485667528903,
+                "y": 72.19131077442856
+            }
+        },
+        "backgrounds/area-skyclad_tower-main.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 47.33333333333333,
+                "y": 687.3333333333333
+            }
+        },
+        "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
+            "scale": 5.9196875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.15625824842948,
+                "y": 72.13218603177954
+            }
+        },
+        "backgrounds/area-skyclad_tower-statue_hall.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79,
+                "y": 71.09090909090908
+            }
+        },
+        "backgrounds/one-room-measurement.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 88,
+                "y": 67.5
+            }
+        },
+        "backgrounds/scene-new_wing-before.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240,
+                "y": 72
+            }
+        },
+        "one-room-measurement.tmx": {
+            "scale": 3.556845238095238,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 92.21655091624132,
+                "y": 98.40180738013555
+            }
+        },
+        "starry-night.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 74.18181818181819,
+                "y": 71.09090909090908
+            }
+        },
+        "tiles/yurivania-0.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3,
+            "scaleInEditor": 11
+        },
+        "working-map.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.75,
+                "y": 71.75
+            }
+        }
+    },
+    "map.height": 126,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+        "working-map.tmx",
+        "one-room-measurement.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx"
+    ],
+    "project": "yurivania-0.tiled-project",
+    "recentFiles": [
+        "working-map.tmx",
+        "one-room-measurement.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/scene-new_wing-before.tmx",
+        "backgrounds/area-skyclad_tower-banner_hall.tmx",
+        "backgrounds/area-skyclad_tower-lunarium.tmx",
+        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
+        "backgrounds/area-skyclad_tower-statue_hall.tmx",
+        "backgrounds/untitled.tmx",
+        "backgrounds/area-stheno_and_alraunes_room.tmx",
+        "starry-night.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    },
+    "tileset.transparentColor": "#65ff00",
+    "tileset.useTransparentColor": true
+}
