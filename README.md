@@ -36,7 +36,7 @@ When this is done it will be available on Itch.
 - Mobile Controls
   - Same as ROM Controls, but shown on-screen.
 
-# Goals 👭🦇
+# Goals 👭👻
 
 - People really liked Yurivania so I wanted to make a followup that was just as cute, simple, and gay as the original.
 - I love GB Studio and wanted to keep using it.
