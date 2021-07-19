@@ -4,7 +4,7 @@
 
 # Yurivania 0: Soul Night Prelude 🌱🐍
 
-This is my entry to [TGD 1st Birthday Jam](https://itch.io/jam/yuri-game-jam-2020), a short Yurivania side-story and prequel.
+This is my entry to [Trans Game Dev Birthday Jam](https://itch.io/jam/tgd-jam), a short Yurivania side-story and prequel.
 
 Tibby the skeleton wants her friend Stheno the gorgon to attend an important palace ceremony, but the treck is difficult and they are running late!
 Can the two make it in time with the help of their partners and a new friend?
