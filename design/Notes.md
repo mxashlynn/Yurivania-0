@@ -48,3 +48,15 @@ To get there on time, they will have to work together to overcome some unexpecte
     - Cutscene
 - Conclusion
     - Cutscene
+
+## Workign Map
+
+0. Title Screen
+1. Outset:
+    - 1.A: Initial Tibby/Stheno Convo - Not Playable
+    - 1.B: Intro Level - Playable
+2. Main Game: Find the Ghosts! - Playable
+3. Minigame: Find Alraune! - Playable
+4. Climax: Meet Suzuka! - Not Playable
+5. Conclusion: Arrive at the Ceremony - Not Playable
+6. Credits - Playable
