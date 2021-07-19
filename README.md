@@ -57,6 +57,7 @@ using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/),
 # Contributors ⚗️🍧
 
 - Design, code, scenario, dialogue writing, and graphics by [Paige Ashlynn](https://github.com/mxashlynn/).
+- Music by [Caidence Stone](https://github.com/caidencestone).
 - [GB Studio](https://gbstudio.dev/) is created by [Chris Maltby](https://github.com/chrismaltby/) and others.
 
 # Rights 🏳️‍🌈🏳️‍⚧️
