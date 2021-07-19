@@ -8,6 +8,10 @@ Monstergirls work together to help out some lost ghosts~!
 
 This is my entry to [Trans Game Dev Birthday Jam](https://itch.io/jam/tgd-jam), a short Yurivania side-story and prequel.
 
+The Midnight Palace is hosting a major ritual to assist spirits navigating the realms beyond mortality.
+Tibby is planning on attending and really wants her friend Stheno to come along.
+To get there on time, they will have to work together to overcome some unexpected obstacles, maybe making a new friend along the way!
+
 
 # Status ⚠️
 
