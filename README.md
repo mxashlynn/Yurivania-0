@@ -13,14 +13,10 @@ Tibby is planning on attending and really wants her friend Stheno to come along.
 To get there on time, they will have to work together to overcome some unexpected obstacles, maybe making a new friend along the way!
 
 
-# Status ⚠️
-
-Under development and not yet playable.
-When this is done it will be available on Itch.
-
 # How to Play 🏰🎮
 
-<!-- TODO:  You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania0)! -->
+You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania-0)!
+
 
 ## Game Controls
 
