@@ -6,7 +6,7 @@
 
 Monstergirls work together to help out some lost ghosts~!
 
-This is my entry to [Trans Game Dev Birthday Jam](https://itch.io/jam/tgd-jam), a very short game-jam game in GB Studio. 
+This is my entry to [Trans Game Dev Birthday Jam](https://itch.io/jam/tgd-jam), a very short game in GB Studio. 
 
 The Midnight Palace is hosting a major ritual to assist spirits navigating the realms beyond mortality.
 Tibby is planning on attending and really wants her friend Stheno to come along.
