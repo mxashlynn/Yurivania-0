@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "working-map.tmx",
+    "activeFile": "backgrounds/area_1-foothill_path.tmx",
     "expandedProjectPaths": [
         ".",
         "backgrounds"
@@ -62,6 +62,14 @@
                 "y": 71.09090909090908
             }
         },
+        "backgrounds/area_1-foothill_path.tmx": {
+            "scale": 2.058333333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 357.32793522267207,
+                "y": 119.51417004048585
+            }
+        },
         "backgrounds/one-room-measurement.tmx": {
             "scale": 4,
             "selectedLayer": 0,
@@ -78,12 +86,23 @@
                 "y": 72
             }
         },
+        "backgrounds/starry-night.tmx": {
+            "scale": 3.4714,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 86.56449847323844,
+                "y": 69.13637149276948
+            }
+        },
+        "backgrounds/tiles/yurivania-0.tsx": {
+            "scaleInDock": 1
+        },
         "one-room-measurement.tmx": {
             "scale": 3.556845238095238,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.12718600953896,
-                "y": 72.25504141912812
+                "x": 79.9866119989959,
+                "y": 71.97389339804201
             }
         },
         "starry-night.tmx": {
@@ -96,31 +115,35 @@
         },
         "tiles/yurivania-0.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 3,
+            "scaleInDock": 2,
             "scaleInEditor": 11
         },
         "working-map.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 72
+                "x": 79.875,
+                "y": 71.75
             }
         }
     },
-    "map.height": 126,
+    "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles",
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "working-map.tmx",
-        "one-room-measurement.tmx"
+        "one-room-measurement.tmx",
+        "backgrounds/area_1-foothill_path.tmx"
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
-        "one-room-measurement.tmx",
         "working-map.tmx",
+        "one-room-measurement.tmx",
+        "backgrounds/area_1-foothill_path.tmx",
+        "backgrounds/starry-night.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/scene-new_wing-before.tmx",
@@ -128,9 +151,7 @@
         "backgrounds/area-skyclad_tower-lunarium.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-skyclad_tower-statue_hall.tmx",
-        "backgrounds/untitled.tmx",
-        "backgrounds/area-stheno_and_alraunes_room.tmx",
-        "starry-night.tmx"
+        "backgrounds/untitled.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
