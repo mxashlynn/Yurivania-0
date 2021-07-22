@@ -66,8 +66,8 @@
             "scale": 2.058333333333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 161.78137651821862,
-                "y": 121.9433198380567
+                "x": 179.02834008097167,
+                "y": 121.45748987854252
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -97,12 +97,20 @@
         "backgrounds/tiles/yurivania-0.tsx": {
             "scaleInDock": 1
         },
+        "backgrounds/working-main_area.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 525.6666666666667,
+                "y": 634.6666666666666
+            }
+        },
         "one-room-measurement.tmx": {
             "scale": 3.556845238095238,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.9866119989959,
-                "y": 71.97389339804201
+                "x": 80.12718600953896,
+                "y": 71.97389339804202
             }
         },
         "starry-night.tmx": {
@@ -122,17 +130,17 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.875,
-                "y": 71.75
+                "x": 80,
+                "y": 72
             }
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles",
-    "map.height": 36,
+    "map.height": 108,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 40,
+    "map.width": 120,
     "openFiles": [
         "working-map.tmx",
         "one-room-measurement.tmx",
