@@ -66,8 +66,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.75,
-                "y": 144
+                "x": 174.75,
+                "y": 137
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -101,8 +101,8 @@
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 476.66666666666663,
-                "y": 469.33333333333337
+                "x": 578,
+                "y": 400
             }
         },
         "one-room-measurement.tmx": {
