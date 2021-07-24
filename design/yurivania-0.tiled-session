@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/working-main_area.tmx",
     "expandedProjectPaths": [
-        ".",
-        "backgrounds"
+        "backgrounds",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -101,8 +101,8 @@
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 593.3333333333333,
-                "y": 494.6666666666666
+                "x": 463.99999999999994,
+                "y": 336
             }
         },
         "backgrounds/working-puzzle_1.tmx": {
@@ -114,27 +114,27 @@
             }
         },
         "backgrounds/working-puzzle_2.tmx": {
-            "scale": 2.8847560975609756,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 156.33904037201438,
-                "y": 144.20629887972947
+                "x": 568,
+                "y": 80.66666666666667
             }
         },
         "backgrounds/working-puzzle_3.tmx": {
-            "scale": 2.8847560975609756,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 156.33904037201438,
-                "y": 144.20629887972947
+                "x": -108,
+                "y": 350.6666666666667
             }
         },
         "backgrounds/working-puzzle_4.tmx": {
-            "scale": 2.8847560975609756,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 156.33904037201438,
-                "y": 144.20629887972947
+                "x": 243,
+                "y": 79.5
             }
         },
         "backgrounds/working-puzzle_5.tmx": {
@@ -192,23 +192,22 @@
     "openFiles": [
         "working-map.tmx",
         "one-room-measurement.tmx",
-        "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/working-main_area.tmx"
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
         "working-map.tmx",
         "one-room-measurement.tmx",
-        "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/working-main_area.tmx",
+        "backgrounds/area_1-foothill_path.tmx",
+        "backgrounds/working-puzzle_4.tmx",
+        "backgrounds/working-puzzle_1.tmx",
+        "backgrounds/working-puzzle_6.tmx",
+        "backgrounds/working-puzzle_5.tmx",
+        "backgrounds/working-puzzle_3.tmx",
+        "backgrounds/working-puzzle_2.tmx",
         "backgrounds/starry-night.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/scene-new_wing-before.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx",
-        "backgrounds/area-skyclad_tower-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-skyclad_tower-statue_hall.tmx"
+        "backgrounds/area-skyclad_tower-balcony.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
