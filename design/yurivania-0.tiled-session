@@ -211,6 +211,7 @@
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
+        "backgrounds/screen_1-logo.tmx",
         "backgrounds/screen_2-title.tmx",
         "working-map.tmx",
         "one-room-measurement.tmx",
@@ -221,8 +222,7 @@
         "backgrounds/working-puzzle_6.tmx",
         "backgrounds/working-puzzle_5.tmx",
         "backgrounds/working-puzzle_3.tmx",
-        "backgrounds/working-puzzle_2.tmx",
-        "backgrounds/starry-night.tmx"
+        "backgrounds/working-puzzle_2.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
