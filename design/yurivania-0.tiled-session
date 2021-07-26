@@ -70,6 +70,14 @@
                 "y": 136.5
             }
         },
+        "backgrounds/area_2-mountain_stair.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 188.66666666666663,
+                "y": 422.66666666666663
+            }
+        },
         "backgrounds/one-room-measurement.tmx": {
             "scale": 4,
             "selectedLayer": 0,
@@ -96,14 +104,6 @@
         },
         "backgrounds/tiles/yurivania-0.tsx": {
             "scaleInDock": 1
-        },
-        "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 1.5,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 188.66666666666663,
-                "y": 423.33333333333326
-            }
         },
         "backgrounds/working-puzzle_1.tmx": {
             "scale": 2.8847560975609756,
