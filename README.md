@@ -58,6 +58,7 @@ using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/),
 
 - Design, code, scenario, dialogue writing, and graphics by [Paige Ashlynn](https://github.com/mxashlynn/).
 - Music by [Caidence Stone](https://github.com/caidencestone).
+- Font elements by [Jeremy Oduber](https://jeremyoduber.itch.io/fonts-for-gb-studio) and [Clint Bellanger](https://opengameart.org/content/good-neighbors-pixel-font).
 - [GB Studio](https://gbstudio.dev/) is created by [Chris Maltby](https://github.com/chrismaltby/) and others.
 
 # Rights 🏳️‍🌈🏳️‍⚧️
