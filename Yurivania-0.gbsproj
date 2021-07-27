@@ -33482,7 +33482,7 @@
             "imageHeight": 288,
             "filename": "area_1-foothill_path.png",
             "inode": "12384898975519974",
-            "_v": 1627340815783
+            "_v": 1627359390870
         },
         {
             "id": "f9e19dd2-4af3-4255-9740-205b77a66ef2",
@@ -34645,9 +34645,9 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 554,
-        "worldScrollY": 1940,
-        "zoom": 125,
+        "worldScrollX": 2810,
+        "worldScrollY": 6444,
+        "zoom": 325,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
