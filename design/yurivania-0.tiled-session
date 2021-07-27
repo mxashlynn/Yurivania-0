@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "one-room-measurement.tmx",
+    "activeFile": "backgrounds/area_3-cliff_face.tmx",
     "expandedProjectPaths": [
         ".",
         "backgrounds"
@@ -63,19 +63,27 @@
             }
         },
         "backgrounds/area_1-foothill_path.tmx": {
-            "scale": 2,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 237,
-                "y": 128
+                "x": 235.99999999999997,
+                "y": 155.33333333333334
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 249,
-                "y": 299.5
+                "x": 855.5,
+                "y": 253.5
+            }
+        },
+        "backgrounds/area_3-cliff_face.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 146,
+                "y": 183.5
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -103,11 +111,11 @@
             }
         },
         "backgrounds/screen_2-title.tmx": {
-            "scale": 5.632142857142857,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.34749524413442,
-                "y": 71.90868738110336
+                "x": 52,
+                "y": 74
             }
         },
         "backgrounds/starry-night.tmx": {
@@ -200,29 +208,31 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles",
-    "map.height": 18,
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 80,
     "openFiles": [
-        "working-map.tmx",
-        "one-room-measurement.tmx"
-    ],
-    "project": "yurivania-0.tiled-project",
-    "recentFiles": [
-        "backgrounds/screen_1-logo.tmx",
-        "backgrounds/screen_2-title.tmx",
         "working-map.tmx",
         "one-room-measurement.tmx",
         "backgrounds/area_2-mountain_stair.tmx",
-        "backgrounds/working-puzzle_1.tmx",
+        "backgrounds/area_3-cliff_face.tmx"
+    ],
+    "project": "yurivania-0.tiled-project",
+    "recentFiles": [
+        "working-map.tmx",
+        "one-room-measurement.tmx",
+        "backgrounds/area_2-mountain_stair.tmx",
+        "backgrounds/area_3-cliff_face.tmx",
+        "backgrounds/screen_2-title.tmx",
         "backgrounds/area_1-foothill_path.tmx",
+        "backgrounds/screen_1-logo.tmx",
+        "backgrounds/working-puzzle_1.tmx",
         "backgrounds/working-puzzle_4.tmx",
         "backgrounds/working-puzzle_6.tmx",
         "backgrounds/working-puzzle_5.tmx",
-        "backgrounds/working-puzzle_3.tmx",
-        "backgrounds/working-puzzle_2.tmx"
+        "backgrounds/working-puzzle_3.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
