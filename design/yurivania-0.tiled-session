@@ -71,19 +71,27 @@
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 1,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 481,
-                "y": 424
+                "x": 390,
+                "y": 415
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 235.5,
-                "y": 147.5
+                "x": 487.5,
+                "y": 147
+            }
+        },
+        "backgrounds/area_4-summit.tmx": {
+            "scale": 1.938934426229508,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 236.2122172902135,
+                "y": 144.40921581061087
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -212,7 +220,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 80,
+    "map.width": 60,
     "openFiles": [
         "working-map.tmx",
         "one-room-measurement.tmx",
