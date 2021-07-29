@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/area_4-summit.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -77,24 +77,24 @@
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 235.99999999999997,
-                "y": 155.33333333333334
+                "x": 240,
+                "y": 144
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 462,
-                "y": 426
+                "x": 480,
+                "y": 432
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 229,
-                "y": 145
+                "x": 320,
+                "y": 144
             }
         },
         "backgrounds/area_4-summit.tmx": {
@@ -200,8 +200,8 @@
             "scale": 3.556845238095238,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.40833403062506,
-                "y": 72.2550414191281
+                "x": 80.12718600953896,
+                "y": 71.97389339804201
             }
         },
         "starry-night.tmx": {
@@ -233,22 +233,21 @@
     "map.tileWidth": 8,
     "map.width": 60,
     "openFiles": [
-        "working-map.tmx",
         "one-room-measurement.tmx",
+        "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area_2-mountain_stair.tmx",
         "backgrounds/area_3-cliff_face.tmx",
-        "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area_4-summit.tmx"
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
-        "working-map.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
         "one-room-measurement.tmx",
+        "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area_2-mountain_stair.tmx",
         "backgrounds/area_3-cliff_face.tmx",
-        "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area_4-summit.tmx",
+        "working-map.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
         "backgrounds/screen_2-title.tmx",
         "backgrounds/screen_1-logo.tmx",
         "backgrounds/working-puzzle_1.tmx",
