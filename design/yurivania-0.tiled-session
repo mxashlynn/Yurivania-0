@@ -82,18 +82,18 @@
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 3,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 721.6666666666666,
-                "y": 87.66666666666667
+                "x": 462,
+                "y": 426
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 594.5,
+                "x": 229,
                 "y": 145
             }
         },
@@ -101,8 +101,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 245,
-                "y": 104
+                "x": 244.5,
+                "y": 103.5
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -200,7 +200,7 @@
             "scale": 3.556845238095238,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.12718600953896,
+                "x": 80.40833403062506,
                 "y": 72.2550414191281
             }
         },
@@ -242,8 +242,8 @@
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
         "working-map.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
         "one-room-measurement.tmx",
         "backgrounds/area_2-mountain_stair.tmx",
         "backgrounds/area_3-cliff_face.tmx",
