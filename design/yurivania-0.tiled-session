@@ -95,11 +95,11 @@
             }
         },
         "backgrounds/area_4-summit.tmx": {
-            "scale": 1.938934426229508,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 247.0429084760093,
-                "y": 143.37772141196365
+                "x": 245,
+                "y": 104
             }
         },
         "backgrounds/one-room-measurement.tmx": {
