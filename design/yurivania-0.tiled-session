@@ -22,6 +22,9 @@
                 "y": 109.09090909090908
             }
         },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles/yurivania-2.tsx": {
+            "scaleInDock": 1
+        },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
@@ -239,6 +242,7 @@
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
         "working-map.tmx",
         "one-room-measurement.tmx",
         "backgrounds/area_2-mountain_stair.tmx",
@@ -249,8 +253,7 @@
         "backgrounds/screen_1-logo.tmx",
         "backgrounds/working-puzzle_1.tmx",
         "backgrounds/working-puzzle_4.tmx",
-        "backgrounds/working-puzzle_6.tmx",
-        "backgrounds/working-puzzle_5.tmx"
+        "backgrounds/working-puzzle_6.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
