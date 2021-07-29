@@ -71,19 +71,19 @@
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 2,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 855.5,
-                "y": 253.5
+                "x": 481,
+                "y": 424
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 146,
-                "y": 183.5
+                "x": 235.5,
+                "y": 147.5
             }
         },
         "backgrounds/one-room-measurement.tmx": {
