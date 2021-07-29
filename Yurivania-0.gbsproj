@@ -36446,7 +36446,7 @@
                 4,
                 4,
                 4,
-                4,
+                0,
                 4,
                 4,
                 4,
@@ -36525,7 +36525,7 @@
                 4,
                 4,
                 4,
-                4,
+                0,
                 4,
                 4,
                 4,
@@ -36604,7 +36604,7 @@
                 4,
                 4,
                 4,
-                4,
+                0,
                 4,
                 4,
                 4,
@@ -39307,7 +39307,7 @@
             "imageHeight": 288,
             "filename": "area_3-cliff_face.png",
             "inode": "16044073673310063",
-            "_v": 1627523890500
+            "_v": 1627525494295
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -40459,9 +40459,9 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 0,
-        "worldScrollY": 564,
-        "zoom": 75,
+        "worldScrollX": 626,
+        "worldScrollY": 1095,
+        "zoom": 175,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
