@@ -41913,9 +41913,9 @@
                                 "variable": "L0",
                                 "choices": 2,
                                 "__collapseCase0": false,
-                                "value0": 25,
+                                "value0": 75,
                                 "__collapseCase1": false,
-                                "value1": 50,
+                                "value1": 150,
                                 "__collapseCase2": false,
                                 "value2": 3,
                                 "__collapseCase3": false,
@@ -47622,6 +47622,60 @@
             "_v": 1627629330315
         },
         {
+            "id": "9b148c4c-6c1c-4a18-8db4-ded0ac647f3d",
+            "name": "npc-alraune_nc",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-alraune_nc.png",
+            "inode": "2251799814030837",
+            "_v": 1627631521690
+        },
+        {
+            "id": "5f25ecd7-51f4-41a5-817a-0f4ef7133a62",
+            "name": "npc-alraune_ne",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-alraune_ne.png",
+            "inode": "2251799814030840",
+            "_v": 1627631521690
+        },
+        {
+            "id": "1116e249-2bde-454b-a541-93a0e23d5f6b",
+            "name": "npc-alraune_nw",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-alraune_nw.png",
+            "inode": "2251799814030778",
+            "_v": 1627631521676
+        },
+        {
+            "id": "42dc9f86-59af-4e6a-82fc-d8c7d05eb55f",
+            "name": "npc-alraune_sc",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "npc-alraune_sc.png",
+            "inode": "2814749767452091",
+            "_v": 1627631521726
+        },
+        {
+            "id": "6df13864-595f-4406-8281-44a547e561dd",
+            "name": "npc-alraune_se",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-alraune_se.png",
+            "inode": "2251799814030824",
+            "_v": 1627631521726
+        },
+        {
+            "id": "f3fec219-fdfb-4abf-a74c-6e422224ab09",
+            "name": "npc-alraune_sw",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-alraune_sw.png",
+            "inode": "2251799814030835",
+            "_v": 1627631521759
+        },
+        {
             "id": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
             "name": "npc-ghost",
             "numFrames": 6,
@@ -48662,8 +48716,8 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 567,
-        "worldScrollY": 1599,
+        "worldScrollX": 898,
+        "worldScrollY": 1399,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
