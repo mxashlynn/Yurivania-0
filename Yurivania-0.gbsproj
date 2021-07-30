@@ -41845,7 +41845,7 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "7"
+                                            "emoteId": "3"
                                         }
                                     },
                                     {
@@ -49080,7 +49080,7 @@
             "imageHeight": 864,
             "filename": "area_2-mountain_stair.png",
             "inode": "23643898043945999",
-            "_v": 1627636793843
+            "_v": 1627639629480
         },
         {
             "id": "8018c132-3b26-4a4c-ba81-1045fa052e84",
@@ -49157,7 +49157,7 @@
             "imageHeight": 144,
             "filename": "screen_4-intro.png",
             "inode": "8725724278318852",
-            "_v": 1627636793844
+            "_v": 1627639491958
         }
     ],
     "spriteSheets": [
@@ -49235,12 +49235,12 @@
         },
         {
             "id": "6df13864-595f-4406-8281-44a547e561dd",
-            "name": "npc-alraune_see",
+            "name": "npc-alraune_sw",
             "numFrames": 1,
             "type": "static",
-            "filename": "npc-alraune_see.png",
+            "filename": "npc-alraune_sw.png",
             "inode": "2251799814030824",
-            "_v": 1627636793844
+            "_v": 1627639432983
         },
         {
             "id": "033db377-9968-4f70-aff5-0364adee857c",
@@ -50315,9 +50315,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 2571,
-        "worldScrollY": 496,
-        "zoom": 375,
+        "worldScrollX": 0,
+        "worldScrollY": 355,
+        "zoom": 75,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
