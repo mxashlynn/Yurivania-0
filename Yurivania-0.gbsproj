@@ -29580,36 +29580,92 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "ecd247ed-c5f7-475b-a5a4-d7e8d1158781",
-                            "command": "EVENT_IF_VALUE",
+                            "id": "1049d63f-7ad1-4a48-96e0-fae4f38d8d30",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "variable": "L0",
-                                "operator": "==",
-                                "comparator": "0",
+                                "variable": "6",
                                 "__collapseElse": false,
-                                "__label": "If Not Everyone Found"
+                                "__disableElse": true,
+                                "__collapse": false,
+                                "__label": "If Quest Started"
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "id": "6c8cc3fc-1528-4013-974d-29e24755095d",
+                                        "id": "ecd247ed-c5f7-475b-a5a4-d7e8d1158781",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "8",
+                                            "operator": "==",
+                                            "comparator": 0,
+                                            "__collapseElse": false,
+                                            "__label": "If Quest Complete"
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "d46a608f-adcd-4716-ad4f-b60714e11b52",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "728e0af7-7544-4f30-8c2f-ab0dfbc87bc0",
+                                                        "x": 4,
+                                                        "y": 30,
+                                                        "direction": "right",
+                                                        "fadeSpeed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "6c8cc3fc-1528-4013-974d-29e24755095d",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "21e59e87-128e-44b1-8dd4-6bd1f0340e69",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: This is the\nway to the top,",
+                                                            "but I don't think\nwe've found\neveryone yet.",
+                                                            "Let's take another\nlook around."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "35c9e087-e794-4082-8ff3-319c90fc1519",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 30
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 4
+                                                        },
+                                                        "moveType": "diagonal",
+                                                        "useCollisions": false,
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "53027046-f3ea-4d0f-a6d5-9c964e628119",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "82a16ac3-b6e0-4d72-ae8d-76112b839253",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "d46a608f-adcd-4716-ad4f-b60714e11b52",
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "728e0af7-7544-4f30-8c2f-ab0dfbc87bc0",
-                                            "x": 4,
-                                            "y": 30,
-                                            "direction": "right",
-                                            "fadeSpeed": "2"
-                                        }
-                                    },
-                                    {
-                                        "id": "53027046-f3ea-4d0f-a6d5-9c964e628119",
+                                        "id": "781d79bb-5d36-4974-9660-c6625fdb059a",
                                         "command": "EVENT_END"
                                     }
                                 ]
