@@ -41775,7 +41775,7 @@
                             "id": "070d4e53-cb8d-4b00-8d6a-cb66ee529edf",
                             "command": "EVENT_IF_FALSE",
                             "args": {
-                                "variable": "1",
+                                "variable": "L1",
                                 "__collapseElse": false,
                                 "__label": "Lucy Convo",
                                 "__disableElse": true
@@ -41786,7 +41786,7 @@
                                         "id": "4895cd78-7d29-423c-bb45-2b6ff411a35d",
                                         "command": "EVENT_SET_TRUE",
                                         "args": {
-                                            "variable": "1"
+                                            "variable": "L1"
                                         }
                                     },
                                     {
@@ -41799,13 +41799,6 @@
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
-                                        }
-                                    },
-                                    {
-                                        "id": "3de97ba1-5c18-4838-9fab-8b11f1fc02c8",
-                                        "command": "EVENT_SET_FALSE",
-                                        "args": {
-                                            "variable": "1"
                                         }
                                     },
                                     {
@@ -48440,6 +48433,10 @@
         {
             "id": "10",
             "name": "Suzuka Convo"
+        },
+        {
+            "id": "3143f848-4ac8-4670-b0d8-a88fe61b364a__L1",
+            "name": "Spoke to Lucy"
         }
     ],
     "engineFieldValues": [
