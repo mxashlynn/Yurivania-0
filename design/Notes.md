@@ -3,7 +3,7 @@
 ## Concept
 
 The Midnight Palace is hosting a major ritual to assist spirits navigating the realms beyond mortality.
-Tibby is planning on attending and really wants her friend Stheno to come along.
+Tibby the skeleton is planning on attending and really wants her friend Stheno to come along.
 To get there on time, they will have to work together to overcome some unexpected obstacles, maybe making a new friend along the way!
 
 ## Story Beats
@@ -11,25 +11,20 @@ To get there on time, they will have to work together to overcome some unexpecte
 - Outset
     - The Midnight Palace is hosting a major ritual to open a gate to help ghosts more easily navigate the realms beyond mortality.
     - Tibby is planning on attending and really wants her friend Stheno to come along!
-    - Stheno is running late and feeling nervous to be meeting so many folks for the first time!
-    - Tibby reassures her that everything will be fine~~
 
 - Main Game
-    - Tibby and Stheno meet up at the base of a cliffside (within the castle grounds?  Right outside the castle?)
-    - On the way up the mountain they meet up with Alraune who is helping sheppherd ghosts in the right direction.
-        - Stheno is crushing hard on Alraune and wants to help out, in order to impress her!
-        - Tibby agrees after some hesitation because she really wants to give back to the community.
-    - Tibby, Stheno, and Alraune work together to gather some lost ghosts.
+    - Tibby and Stheno meet up at the base of a cliffside right outside the castle grounds.
+    - On the way up the mountain they meet ghosts who need help navigating to the summit.
+    - Stheno and Tibby agree to help out those in need.
 
 - Mini Game
-    - As part of working together, Alraune grows along the cliff side to help the others pass.
+    - Optionally, the player can try to find all the soul enegry floating around the mountainside.
 
 - Climax
     - Having helped all the ghosts they could find on their way up the mountain, the three continue their treck.
-    - The three find themselves at an impass, unable to continue due to a (rockfall?  landslide?)
-    - Thankfully, Suzuka the local oni ranger is on hand to clear the way.
-        - This is Suzuka and Stheno's first meeting.
-        - Maybe Suzuka is aided by some invisible ghostly help??
+    - The three find themselves at an impasse, unable to continue due to eroded stairs.
+    - Alraune grows along the cliff side to help the others pass.
+    - This is Suzuka and Stheno's first meeting.
 
 - Conclusion
     - Everyone arrives safely at the summit in time for the ceremony!
@@ -51,12 +46,11 @@ To get there on time, they will have to work together to overcome some unexpecte
 
 ## Workign Map
 
-0. Title Screen
 1. Outset:
     - 1.A: Initial Tibby/Stheno Convo - Not Playable
     - 1.B: Intro Level - Playable
 2. Main Game: Find the Ghosts! - Playable
-3. Minigame: Find Alraune! - Playable
-4. Climax: Meet Suzuka! - Not Playable
-5. Conclusion: Arrive at the Ceremony - Not Playable
-6. Credits - Playable
+3. Minigame: Find the Energies! - Playable
+4. Climax:
+    - 4.A: Meet Suzuka! Meet Alraune! - Not Playable
+    - 4.B: Arrive at the Ceremony - Not Playable
