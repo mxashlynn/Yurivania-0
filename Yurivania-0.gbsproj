@@ -27990,19 +27990,90 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Party Talk",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
                             {
-                                "id": "2e2e8530-c174-4bd0-b4a5-a9fb3a76bbe4",
-                                "command": "EVENT_TEXT",
+                                "id": "f8f2f021-cf42-4a10-b6ee-69f4f5672373",
+                                "command": "EVENT_IF_FALSE",
                                 "args": {
-                                    "text": [
-                                        "TIBBY: The\nmountain is quite\nsteep^.",
-                                        "Let's follow the\nleft and take the\nstairway."
+                                    "variable": "6",
+                                    "__collapseElse": false,
+                                    "__label": "Party Talk",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "70f580f9-48c8-4a9f-9d77-c1de8f45ed71",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "TIBBY: The\nmountain is quite\nsteep^.",
+                                                    "Let's follow the\npath left and take\nthe stairway."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true,
+                                                "__label": "If Quest Hasn't Started"
+                                            }
+                                        },
+                                        {
+                                            "id": "cbbdc483-4342-40d8-8f4e-6843bb9cdad5",
+                                            "command": "EVENT_END"
+                                        }
                                     ],
-                                    "avatarId": ""
+                                    "false": [
+                                        {
+                                            "id": "cf3e37ba-c60d-4b6a-a718-380d4c172d9b",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "8",
+                                                "operator": ">",
+                                                "comparator": "0",
+                                                "__collapseElse": false,
+                                                "__label": "If Haven't Found Everyone"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "9d736d25-e4b8-418b-aeff-e09f487c8a88",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "TIBBY: I think\nthere are $08$\nghosts lost\nnearby^."
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "d1c5faee-528a-4af3-896f-b4b17408a596",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "76f05ac7-4527-4cb3-b630-fd504f9fb8e3",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "TIBBY: I think we\nfound everyone!\nLet's head up!"
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "37c8d050-4498-4286-aa45-08fdc956e08a",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "98b6463e-4355-4c83-ae5e-55f19f7d6bfb",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
                                 }
                             },
                             {
@@ -28021,7 +28092,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Set Up Menu Button"
                     },
                     "children": {
@@ -28030,7 +28101,8 @@
                                 "id": "6b6606c9-6c74-4959-b6f3-ee08d3538f7b",
                                 "command": "EVENT_SET_TRUE",
                                 "args": {
-                                    "variable": "1"
+                                    "variable": "1",
+                                    "__collapse": true
                                 }
                             },
                             {
@@ -28126,10 +28198,10 @@
                                                         "args": {
                                                             "text": [
                                                                 "TIBBY: The\nmountain is quite\nsteep^.",
-                                                                "Let's follow the\nleft and take the\nstairway."
+                                                                "Let's follow the\npath left and take\nthe stairway."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": false,
+                                                            "__collapse": true,
                                                             "__label": "If Quest Hasn't Started"
                                                         }
                                                     },
@@ -28146,7 +28218,8 @@
                                                             "variable": "8",
                                                             "operator": ">",
                                                             "comparator": "0",
-                                                            "__collapseElse": false
+                                                            "__collapseElse": false,
+                                                            "__label": "If Haven't Found Everyone"
                                                         },
                                                         "children": {
                                                             "true": [
@@ -28394,7 +28467,8 @@
                                 "id": "6f42dd1a-9e2a-45b7-9b02-b58d352a88de",
                                 "command": "EVENT_SET_FALSE",
                                 "args": {
-                                    "variable": "1"
+                                    "variable": "1",
+                                    "__collapse": true
                                 }
                             },
                             {
@@ -28488,8 +28562,85 @@
                     "animSpeed": 3,
                     "paletteId": "38a3f1c7-da1d-469e-801b-c28d214710fc",
                     "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "6735da1d-d33b-4f0a-860d-37066ee7df9a",
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "2",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "c0812009-237f-4ca6-9772-b6a2b8d1373c",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "GHOST: Thanks so\nmuch!  How\nembarressing\nthis has been!"
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "73411b6c-d5e3-4de8-abb3-06d354d08112",
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "8",
+                                "operation": "sub",
+                                "other": "val",
+                                "vectorY": "L0",
+                                "value": "1",
+                                "minValue": "0",
+                                "maxValue": "255",
+                                "clamp": true,
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "8ec19eb0-ae42-46a9-86ec-0ba978ffc3b6",
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "8",
+                                "operator": "==",
+                                "comparator": "0",
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__label": "Announce Everyone Found",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "56ac8580-70f5-4a19-af25-ad7f59f740dc",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: That's\neveryone!  Let's\nhead to the\nPortal!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "08226585-dc8b-4733-90dc-7366bc3bc1b5",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "c3a1164c-8c9c-415b-95b6-6af4a4a22652",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "5206f4ea-dcd9-48fe-9970-c46891fc2c54",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -28498,6 +28649,106 @@
                     "id": "c4f8d465-9bdf-4e35-940b-2ead93720b6c",
                     "x": 21,
                     "y": 57
+                },
+                {
+                    "name": "Ghost 2",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
+                    "spriteType": "actor",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "38a3f1c7-da1d-469e-801b-c28d214710fc",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "78e3d8a0-e415-436c-a7ce-f2cd4990fcd8",
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "2",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "8e8482d3-77fd-43e2-8ca2-175cf3992e4d",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "GHOST: Wow, you're\nquite the dare\ndevil!!",
+                                    "I'm gonna stick\nwith you till we\nget to the top!"
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "74ac966d-0d28-42b3-bfe2-ed22f9739305",
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "8",
+                                "operation": "sub",
+                                "other": "val",
+                                "vectorY": "L0",
+                                "value": "1",
+                                "minValue": "0",
+                                "maxValue": "255",
+                                "clamp": true,
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "608dc2bb-9202-4f7a-9e11-aaccae3ed394",
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "8",
+                                "operator": "==",
+                                "comparator": "0",
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__label": "Announce Everyone Found",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "865123a1-b614-4606-be09-86bda280097e",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: That's\neveryone!  Let's\nhead to the\nPortal!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "025c1b08-ce20-41a6-854f-f33091df5f3d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "de0d7f76-9c4a-493e-bdd5-091dc95a4263",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "b865e905-f749-469b-befa-f8dddb2b5713",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b072009f-7aa1-46de-b7eb-5f8d1ac6c574",
+                    "x": 2,
+                    "y": 32
                 }
             ],
             "triggers": [
@@ -33599,9 +33850,10 @@
                                 "args": {
                                     "text": [
                                         "TIBBY: The\nmountain is quite\nsteep^.",
-                                        "Let's follow the\nleft and take the\nstairway."
+                                        "Let's follow the\npath left and take\nthe stairway."
                                     ],
-                                    "avatarId": ""
+                                    "avatarId": "",
+                                    "__collapse": true
                                 }
                             },
                             {
@@ -46010,8 +46262,8 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 436,
-        "worldScrollY": 2950,
+        "worldScrollX": 412,
+        "worldScrollY": 2834,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
