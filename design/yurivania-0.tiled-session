@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area_3-cliff_face.tmx",
+    "activeFile": "backgrounds/area_2-mountain_stair.tmx",
     "expandedProjectPaths": [
         "backgrounds",
         "."
@@ -82,11 +82,11 @@
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 1,
+            "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 480,
-                "y": 432
+                "x": 605.3333333333333,
+                "y": 256
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
@@ -242,8 +242,8 @@
     "recentFiles": [
         "one-room-measurement.tmx",
         "backgrounds/area_1-foothill_path.tmx",
-        "backgrounds/area_2-mountain_stair.tmx",
         "backgrounds/area_3-cliff_face.tmx",
+        "backgrounds/area_2-mountain_stair.tmx",
         "backgrounds/area_4-summit.tmx",
         "working-map.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
