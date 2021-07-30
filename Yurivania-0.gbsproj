@@ -32467,7 +32467,277 @@
             "id": "7038dbde-cbb6-432a-a26c-ad223af57900",
             "x": 844.5714285714286,
             "y": 1957.3333333333333,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "87273927-d04a-4df7-86f2-64b62b51478d",
+                    "spriteType": "actor",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "ca1e1b22-ba8d-4ccd-92c2-a1a7b64d1b78",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "__label": "Opening Conversation",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "a360e7a7-d627-4bc2-8e50-62046275582e",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 54
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 33
+                                            },
+                                            "moveType": "diagonal",
+                                            "useCollisions": false
+                                        }
+                                    },
+                                    {
+                                        "id": "8f0ca47f-402e-4a9c-a366-1991d24cdfff",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 50
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 33
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        }
+                                    },
+                                    {
+                                        "id": "bd078b4e-0d35-4bdb-bb0f-d1a0d01779e9",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "ec540ce0-1626-44db-94d4-3c929d53cf2e",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: It's Soul\nNight at last!  I\ncan't believe it!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "c07cc63a-6c86-4892-8928-a45f4dc9eede",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "player",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 54
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 33
+                                            },
+                                            "moveType": "diagonal",
+                                            "useCollisions": false
+                                        }
+                                    },
+                                    {
+                                        "id": "66c4e0d1-390c-4925-8581-9b253145d22b",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Right??\nIt's always my\nfave night of the\nyear."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "f206409c-64ef-46c6-bf66-29a844ba4945",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: And this\nyear is special! ",
+                                                "We're opening the\nPalace's first\nSoul Portal~~",
+                                                "The community\nreally came\ntogether to\nmake this happen!",
+                                                "Thanks for coming\nwith me, Stheno~!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "a9587f83-606a-4bbe-a509-db835904e792",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Of course!\nYou're my bestie!",
+                                                "But, what exactly\nis a Soul Portal?",
+                                                "It's to help\nghosts, right?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "a20f4799-14de-465e-9411-f9b291d86cf3",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY:  Right.\nYou see, the\nrealms beyond\nmortality",
+                                                "are myriad, and\ncan get pretty\nconfusing.",
+                                                "It's easy to get\nlost.  The Portal\nis a gateway that",
+                                                "connecting realms\ntogether.  Any\nspirits who lose",
+                                                "their way can use\nit to get back on\ntrack."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "c269f173-7b2c-41dc-95cb-fa82ae3f945a",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Awesome!",
+                                                "Is the site hard\nto reach?\nI've never been\nhere before."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "f12bae05-b8f1-4e22-8cdf-e4e6f7e83225",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "fcdcd1b5-b47d-44db-b7e8-8c461af386ae",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: Nah,\nthere's a stairway\nthe whole way up.",
+                                                "But, now that you\nmention it^"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "33ca5656-7ab2-423b-9fbd-67ef6e7903c3",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "a5336a34-e426-4798-96ef-812518c5a85f",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: ^there's\nbound to be loads\nof spiritual\nenergy",
+                                                "up there tonight.\nThat can be\ndisorienting for",
+                                                "we undead.  I'm\ngoing to stick\nclose to you!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "e044efa2-3035-40fd-96aa-0f680bdfeb9e",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 54
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 33
+                                            },
+                                            "moveType": "diagonal",
+                                            "useCollisions": false
+                                        }
+                                    },
+                                    {
+                                        "id": "264104f2-d302-4181-8c2f-d4e6c2f76d93",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Cool by\nme!  Let's go!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "5953fdc0-3b80-4086-978b-81cc769e9f25",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "0"
+                                        }
+                                    },
+                                    {
+                                        "id": "bfd3f459-9255-442c-a0c3-ca11da2a1d4e",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "4711e7fa-a39c-49fa-a397-a8bfedbe5e6c",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "7c1c23a9-0403-4006-9e73-fb90cea54fcf",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0f46eeba-0bca-4b8b-ae4a-e2b35c6644c7",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d6920bab-a0bf-4419-9c89-ba0e605303fb",
+                    "x": 56,
+                    "y": 32
+                }
+            ],
             "triggers": [
                 {
                     "name": "To Mountain Stair",
@@ -43253,6 +43523,15 @@
             "_v": 1627601301299
         },
         {
+            "id": "87273927-d04a-4df7-86f2-64b62b51478d",
+            "name": "npc-tibby",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "npc-tibby.png",
+            "inode": "10414574138585714",
+            "_v": 1627608547637
+        },
+        {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
             "name": "player-cursor",
             "numFrames": 1,
@@ -44290,9 +44569,9 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 75,
+        "worldScrollX": 1857,
+        "worldScrollY": 4227,
+        "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
