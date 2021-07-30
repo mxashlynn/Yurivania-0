@@ -42203,7 +42203,7 @@
                             "args": {
                                 "sceneId": "684765a9-d830-46b7-9b80-4cfa1d0ca4ca",
                                 "x": 1,
-                                "y": 31,
+                                "y": 34,
                                 "direction": "up",
                                 "fadeSpeed": "2"
                             }
@@ -44602,6 +44602,8 @@
                 15,
                 15,
                 0,
+                16,
+                16,
                 0,
                 0,
                 0,
@@ -44626,8 +44628,102 @@
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
+                16,
+                16,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
+                16,
+                16,
                 15,
                 15,
                 15,
@@ -44685,6 +44781,9 @@
                 15,
                 15,
                 15,
+                0,
+                16,
+                16,
                 15,
                 15,
                 15,
@@ -44742,108 +44841,9 @@
                 15,
                 15,
                 15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                16,
+                16,
                 15,
                 15,
                 15,
@@ -47071,7 +47071,140 @@
             "id": "684765a9-d830-46b7-9b80-4cfa1d0ca4ca",
             "x": 433.33333333333337,
             "y": 398.6666666666668,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Alraune SE",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "f3fec219-fdfb-4abf-a74c-6e422224ab09",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "168ac0a4-094a-42ab-b775-6747399007e3",
+                    "x": 5,
+                    "y": 31
+                },
+                {
+                    "name": "Alraune SC",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "42dc9f86-59af-4e6a-82fc-d8c7d05eb55f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "76f0d3e2-a540-4fcc-bb55-f513a10f6e8c",
+                    "x": 3,
+                    "y": 31
+                },
+                {
+                    "name": "Alraune SW",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "6df13864-595f-4406-8281-44a547e561dd",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d4a56649-320d-4d9f-ad82-430882434ceb",
+                    "x": 1,
+                    "y": 31
+                },
+                {
+                    "name": "Alraune NE",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "1116e249-2bde-454b-a541-93a0e23d5f6b",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "15bc8bb3-0b49-468c-be7b-0c1405c4a46f",
+                    "x": 5,
+                    "y": 29
+                },
+                {
+                    "name": "Alraune NC",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "9b148c4c-6c1c-4a18-8db4-ded0ac647f3d",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "15ddee74-a219-4c95-93a6-dc27e2e0a344",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "be2411de-49b5-415b-aa69-53bea52b89b8",
+                    "x": 3,
+                    "y": 29
+                },
+                {
+                    "name": "Alraune NW",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "5f25ecd7-51f4-41a5-817a-0f4ef7133a62",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "15ddee74-a219-4c95-93a6-dc27e2e0a344",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3171d337-78fc-4517-9988-39de5c72f1ed",
+                    "x": 1,
+                    "y": 29
+                }
+            ],
             "triggers": []
         },
         {
@@ -47502,7 +47635,7 @@
             "imageHeight": 288,
             "filename": "area_1-foothill_path.png",
             "inode": "12384898975519974",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "f9e19dd2-4af3-4255-9740-205b77a66ef2",
@@ -47513,7 +47646,7 @@
             "imageHeight": 864,
             "filename": "area_2-mountain_stair.png",
             "inode": "23643898043945999",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "8018c132-3b26-4a4c-ba81-1045fa052e84",
@@ -47524,7 +47657,7 @@
             "imageHeight": 288,
             "filename": "area_3-cliff_face.png",
             "inode": "16044073673310063",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "0f3f47c1-781a-4d47-9be5-88164bf29bcb",
@@ -47535,7 +47668,7 @@
             "imageHeight": 288,
             "filename": "area_4-summit.png",
             "inode": "40532396646438043",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -47546,7 +47679,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "10977524092005988",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "686978ee-fee6-4df8-94b6-8bdce69bedad",
@@ -47557,7 +47690,7 @@
             "imageHeight": 144,
             "filename": "screen_1-logo.png",
             "inode": "10977524092520362",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -47568,7 +47701,7 @@
             "imageHeight": 144,
             "filename": "screen_2-title.png",
             "inode": "7318349394767465",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -47579,7 +47712,7 @@
             "imageHeight": 144,
             "filename": "screen_3-controls.png",
             "inode": "6192449487924820",
-            "_v": 1627629330315
+            "_v": 1627631728967
         },
         {
             "id": "a9661218-ed09-4b36-8c43-c3e9c2bcb1ec",
@@ -47590,7 +47723,7 @@
             "imageHeight": 144,
             "filename": "screen_4-intro.png",
             "inode": "8725724278318852",
-            "_v": 1627629330315
+            "_v": 1627631728967
         }
     ],
     "spriteSheets": [
@@ -47601,7 +47734,7 @@
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "8725724278320754",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "c6c9ddce-ee8d-49d5-92cb-768ccd4c13c3",
@@ -47610,7 +47743,7 @@
             "type": "actor_animated",
             "filename": "fx-press_start.png",
             "inode": "8725724278189475",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
@@ -47619,7 +47752,7 @@
             "type": "animated",
             "filename": "fx-star.png",
             "inode": "177892185281135852",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "9b148c4c-6c1c-4a18-8db4-ded0ac647f3d",
@@ -47628,25 +47761,25 @@
             "type": "animated",
             "filename": "npc-alraune_nc.png",
             "inode": "2251799814030837",
-            "_v": 1627631521690
+            "_v": 1627631894588
         },
         {
-            "id": "5f25ecd7-51f4-41a5-817a-0f4ef7133a62",
+            "id": "1116e249-2bde-454b-a541-93a0e23d5f6b",
             "name": "npc-alraune_ne",
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-alraune_ne.png",
-            "inode": "2251799814030840",
-            "_v": 1627631521690
+            "inode": "2251799814030778",
+            "_v": 1627632075989
         },
         {
-            "id": "1116e249-2bde-454b-a541-93a0e23d5f6b",
+            "id": "5f25ecd7-51f4-41a5-817a-0f4ef7133a62",
             "name": "npc-alraune_nw",
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-alraune_nw.png",
-            "inode": "2251799814030778",
-            "_v": 1627631521676
+            "inode": "2251799814030840",
+            "_v": 1627632078520
         },
         {
             "id": "42dc9f86-59af-4e6a-82fc-d8c7d05eb55f",
@@ -47655,25 +47788,25 @@
             "type": "static",
             "filename": "npc-alraune_sc.png",
             "inode": "2814749767452091",
-            "_v": 1627631521726
+            "_v": 1627631909594
         },
         {
-            "id": "6df13864-595f-4406-8281-44a547e561dd",
+            "id": "f3fec219-fdfb-4abf-a74c-6e422224ab09",
             "name": "npc-alraune_se",
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-alraune_se.png",
-            "inode": "2251799814030824",
-            "_v": 1627631521726
+            "inode": "2251799814030835",
+            "_v": 1627632089321
         },
         {
-            "id": "f3fec219-fdfb-4abf-a74c-6e422224ab09",
+            "id": "6df13864-595f-4406-8281-44a547e561dd",
             "name": "npc-alraune_sw",
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-alraune_sw.png",
-            "inode": "2251799814030835",
-            "_v": 1627631521759
+            "inode": "2251799814030824",
+            "_v": 1627632092680
         },
         {
             "id": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -47682,7 +47815,7 @@
             "type": "actor_animated",
             "filename": "npc-ghost.png",
             "inode": "61643019899703738",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -47691,7 +47824,7 @@
             "type": "animated",
             "filename": "npc-lucy_lay.png",
             "inode": "15762598696087400",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "2309172b-7ca3-4d5f-999b-ca2e01c98dd0",
@@ -47700,7 +47833,7 @@
             "type": "actor",
             "filename": "npc-suzuka.png",
             "inode": "15199648742713115",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "45bb9e5e-c340-49b0-86fb-1fbde73c0a54",
@@ -47709,7 +47842,7 @@
             "type": "static",
             "filename": "npc-suzukas_hair.png",
             "inode": "41376821576805951",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "87273927-d04a-4df7-86f2-64b62b51478d",
@@ -47718,7 +47851,7 @@
             "type": "actor_animated",
             "filename": "npc-tibby.png",
             "inode": "10414574138585714",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -47727,7 +47860,7 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "4785074604371953",
-            "_v": 1627629330315
+            "_v": 1627631728968
         },
         {
             "id": "15eaf118-8c2a-4bf5-88e6-5d7d4802bb1f",
@@ -47736,7 +47869,7 @@
             "type": "actor_animated",
             "filename": "player-stheno_climbing.png",
             "inode": "17451448556400651",
-            "_v": 1627629388189
+            "_v": 1627631728968
         }
     ],
     "palettes": [
@@ -48648,6 +48781,10 @@
             "name": "Suzuka Convo"
         },
         {
+            "id": "11",
+            "name": "Climb Mode"
+        },
+        {
             "id": "3143f848-4ac8-4670-b0d8-a88fe61b364a__L0",
             "name": "Sleepy Cat"
         },
@@ -48674,10 +48811,6 @@
         {
             "id": "3143f848-4ac8-4670-b0d8-a88fe61b364a__L1",
             "name": "Spoke to Lucy"
-        },
-        {
-            "id": "11",
-            "name": "Climb Mode"
         }
     ],
     "engineFieldValues": [
@@ -48717,7 +48850,7 @@
         "showCollisions": true,
         "showConnections": "selected",
         "worldScrollX": 898,
-        "worldScrollY": 1399,
+        "worldScrollY": 899,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
