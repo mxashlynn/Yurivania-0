@@ -6,10 +6,10 @@
 
 Monstergirls work together to help out some lost ghosts~!
 
-This is my entry to [Trans Game Dev Birthday Jam](https://itch.io/jam/tgd-jam), a very short game in GB Studio. 
+This is my entry to **Trans Game Dev Birthday Jam**, a very short game in GB Studio. 
 
 The Midnight Palace is hosting a major ritual to assist spirits navigating the realms beyond mortality.
-Tibby is planning on attending and really wants her friend Stheno to come along.
+Tibby the skeleton is planning on attending and really wants her friend Stheno to come along.
 To get there on time, they will have to work together to overcome some unexpected obstacles, maybe making a new friend along the way!
 
 This is a side-story and prequel to [Yurivania](https://github.com/mxashlynn/Yurivania), but no prior knowledge is needed to enjoy playing this game.
@@ -18,7 +18,6 @@ This is a side-story and prequel to [Yurivania](https://github.com/mxashlynn/Yur
 # How to Play 🏰🎮
 
 You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania-0)!
-
 
 ## Game Controls
 
@@ -37,22 +36,26 @@ You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io
 - Mobile Controls
   - Same as ROM Controls, but shown on-screen.
 
+
 # Goals 👭👻
 
 - People really liked Yurivania so I wanted to make a followup that was just as cute, simple, and gay as the original.
 - I love GB Studio and wanted to keep using it.
 - I wanted to keep the scope *really, really* small so that I could finish it in about two weeks.
 
+
 # Features 🎭🗺️
 
 1. 2D side-scrolling exploration.
-2. Environmental hazards to avoid.
-3. Characters to interact with.
+2. NPC rescue.
+3. Backstory for Yurivania 1.
+
 
 # Requirements 🛡️🦴
 
-This game was built with RichardULZ's fixes to [GB Studio 2.0-beta 5](https://github.com/RichardULZ/gb-studio/tree/fix/beta5),
+This game was built with [GB Studio 2.0-beta 5](https://github.com/RichardULZ/gb-studio/tree/fix/beta5),
 using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
+
 
 # Contributors ⚗️🍧
 
@@ -60,6 +63,7 @@ using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/),
 - Music by [Caidence Stone](https://github.com/caidencestone).
 - Font elements by [Jeremy Oduber](https://jeremyoduber.itch.io/fonts-for-gb-studio) and [Clint Bellanger](https://opengameart.org/content/good-neighbors-pixel-font).
 - [GB Studio](https://gbstudio.dev/) is created by [Chris Maltby](https://github.com/chrismaltby/) and others.
+
 
 # Rights 🏳️‍🌈🏳️‍⚧️
 
