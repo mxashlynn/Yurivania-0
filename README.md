@@ -15,6 +15,17 @@ To get there on time, they will have to work together to overcome some unexpecte
 This is a side-story and prequel to [Yurivania](https://github.com/mxashlynn/Yurivania), but no prior knowledge is needed to enjoy playing this game.
 
 
+# Known Issues ⚠️
+
+1. You have to hop up the stairs rather than walk up them, and their collision isn't great.  It's too easy to fall off.
+2. There is a glitch sometimes causing emote bubbles to hang around longer than they should.
+3. The soul energy mini game isn't implemented yet.
+4. The music isn't implemented yet.
+5. I haven't had time to balance the difficulty yet.
+
+Please report any other issues you find!
+
+
 # How to Play 🏰🎮
 
 You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania-0)!
