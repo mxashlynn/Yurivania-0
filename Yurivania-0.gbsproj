@@ -41890,6 +41890,298 @@
                     "id": "3143f848-4ac8-4670-b0d8-a88fe61b364a",
                     "x": 2,
                     "y": 18
+                },
+                {
+                    "name": "Suzuka",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2309172b-7ca3-4d5f-999b-ca2e01c98dd0",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "6824dde5-aac7-420b-8a92-3aa2016ae63c",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "52219bbc-9851-4047-8974-735e30a77b6c",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "L0"
+                            }
+                        },
+                        {
+                            "id": "e561129c-e7a4-45f3-aa61-757ea4e845ac",
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "L0",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 25,
+                                "__collapseCase1": false,
+                                "value1": 50,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__label": "Change Direction"
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "id": "d0fc95bb-31d9-40eb-999c-3a5630ee8714",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "2ea708e4-7b03-4a2a-9b0d-1c44bf23e683",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "id": "c5cf7ef3-c7b4-4a43-8042-bef13126a706",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "down"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "2a73506e-1e1c-46ad-89f4-e33fab53cd6d",
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "value": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "3ffb6742-93b0-45c3-b165-a45d98b779b1",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true2": [
+                                    {
+                                        "id": "8c2d1153-c91f-424b-8835-b0cef0c9e479",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true3": [
+                                    {
+                                        "id": "62d5ebdb-dd84-4f70-bfe0-fafaa85b5470",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true4": [
+                                    {
+                                        "id": "bbe82d99-d04a-4734-945f-e45c9d8aabc9",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true5": [
+                                    {
+                                        "id": "3a88c93c-c8ae-41cc-ab4c-31a113e03f87",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true6": [
+                                    {
+                                        "id": "0d841366-2e87-4bbd-b36c-bd87b9335d75",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true7": [
+                                    {
+                                        "id": "89ff40dd-514b-4a47-ade5-f4520e2e5b6e",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true8": [
+                                    {
+                                        "id": "df7d9d46-810d-457b-9137-05560dd850fb",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true9": [
+                                    {
+                                        "id": "5484e624-3623-41a7-9c73-59dd99c91b54",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true10": [
+                                    {
+                                        "id": "85203a88-4e6d-46b9-ad72-b49a190951d9",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true11": [
+                                    {
+                                        "id": "9dbc3923-2aea-4ad4-ac22-4362d8203df7",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true12": [
+                                    {
+                                        "id": "81a6a469-42ab-4f5c-8464-5a10ddbfb95a",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true13": [
+                                    {
+                                        "id": "d1eb7ca8-63c4-4d73-82af-becd48119575",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true14": [
+                                    {
+                                        "id": "5f4bfb5d-4927-4e1d-bc61-b0c2edefc23a",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true15": [
+                                    {
+                                        "id": "e122afa7-fb2a-4c54-978f-7b2b6d70d438",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "a16dfc41-bf80-4f90-9381-216d45b16d61",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "cfdac88f-8c36-486a-b380-3437c2c9789f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "bcafc755-ac4c-452f-a198-045c6a28fd5d",
+                    "x": 37,
+                    "y": 27
+                },
+                {
+                    "name": "Suzuka's Hair",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "45bb9e5e-c340-49b0-86fb-1fbde73c0a54",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "750b5d17-7736-4f99-8efd-43aada1602a9",
+                    "x": 37,
+                    "y": 25
+                },
+                {
+                    "name": "Tibby",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "87273927-d04a-4df7-86f2-64b62b51478d",
+                    "spriteType": "actor",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "3e24c32d-9c75-4e1a-8582-b329d39376c8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "1f331567-fba9-4cfc-ab41-8e5aa4c66d61",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "a2335df0-b503-4a04-96e4-f435f622ea71",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                    "x": 32,
+                    "y": 27
+                },
+                {
+                    "name": "Blush",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "634c44b8-e2ef-4bf3-801f-c846dec82630",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9b7d546c-bfd6-47df-8a35-1de61522c75d",
+                    "x": 32,
+                    "y": 27
                 }
             ],
             "triggers": [
@@ -41918,6 +42210,353 @@
                     "y": 0,
                     "width": 2,
                     "height": 1
+                },
+                {
+                    "name": "Suzuka Convo",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "5165e4aa-2401-4fbd-9639-7a5b8ee84279",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "10",
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__label": "Spirit Energy Convo",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "cd3bd862-9169-470c-888f-d9f288926bd9",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "10",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "d0517b8f-9a1d-49dd-ae91-d46c2c470425",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 32
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 27
+                                            },
+                                            "moveType": "diagonal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "d3a004d9-4d5b-45c1-b087-23eb917942e2",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            },
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "e8d88ba9-242e-482d-90ca-a75a564a4997",
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "35545e57-e7a0-4f62-b759-687f70afa1cb",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 34
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 27
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "7ba53659-2c4b-4373-8784-cbb8646a8762",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "bcafc755-ac4c-452f-a198-045c6a28fd5d",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            },
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "35d05e55-aac0-4d5c-af2a-4cf41b4aa2c3",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: Suzuka!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "6f06ad59-7b42-4c82-abe9-556256527328",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "SUZUKA: Heya\nTibby.  On your\nway to the\nceremony?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "a4295dde-9f4b-467f-953d-e7fcb61ea96c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: Yes, we\nwere.  But what's\ngoing on here?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "ed4f752b-4ed6-4a00-8043-3f9411a0004a",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "SUZUKA: Ah, well. \nThe stair has\nfallen, I'm\nafraid.",
+                                                "That's soil\nhydrology for ya.\nThing wasn't built\nright.",
+                                                "I'm repairing it."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "60a345d8-9626-40a2-b0e7-34f43436502f",
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "emoteId": 0,
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "3a38f2db-3d76-44d1-a3cc-2b525a909d2c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "SUZUKA: But don't\nworry!  There's\nanother way up.",
+                                                "Someone named\nAlraune has been\nkind enough",
+                                                "to grow a set of\nvines along the\ncliff face.",
+                                                "You've just got to\nclimb!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "451a3c26-bba4-4c10-9c26-056c954e411c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: You said\nAlraune?!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "ae0afebf-0f5b-485a-8eac-edca7339b4bb",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "SUZUKA: That's\nright.  She's up\ntop already.",
+                                                "I don't think\nwe've met. I'm\nSuzuka, local oni\nranger!",
+                                                "May I ask your\nname and\npronouns?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "5272eadc-cfba-4232-985e-8253ca36c6a5",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Oh, uh. \nYeah, sorry!",
+                                                "I'm Stheno,\nshe/her.  Nice to\nmeet you!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "35dd3cd9-33b9-49c5-aac6-bd846b3a117d",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "SUZUKA: I use\nshe/her as well.",
+                                                "But no time to\nchat if you all\nwant to make it",
+                                                "to the ceremony!\nJust head right on\nup."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "e7b8772c-5659-4ce9-a085-38dc22cac41b",
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "9b7d546c-bfd6-47df-8a35-1de61522c75d",
+                                            "emoteId": "6",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "236a2b27-8216-4097-a873-1500437743b8",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            },
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "0ddabf3a-5c82-46ab-b750-56328f569c8b",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: Something\nwrong?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "98a021ec-18ce-4861-a27e-9b3da17a2d99",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: But^\nthese vines are\nAlraune^.",
+                                                "We'll be, like^",
+                                                "^climbing on her\n<=>!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "6880ea27-e1b0-4464-9189-84328d27730b",
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "emoteId": "5",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "65af5b34-ea53-4560-a73f-0322826d6f4b",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "TIBBY: Stheno.  I\nknow you have a\ncrush, but really.",
+                                                "Just, y'know,\nthink of it like a\nleg up."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "352ace5b-e89a-435e-9c30-e4694d76735d",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Right, of\ncourse.  Okay.\nA leg up.",
+                                                "Totally.\nNot weird at all."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "f7550371-a781-4c1f-b3f2-8ea2b22f1d95",
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "9b7d546c-bfd6-47df-8a35-1de61522c75d",
+                                            "emoteId": "6",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "6568a5c2-b323-463c-a555-82fbc4dffc59",
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 32
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 27
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "98701854-9c29-43c9-8589-51983b56e925",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "38ea0911-a9da-4bed-bf67-8836008a09f1",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "15493453-4f54-4a7d-877b-6139e92fd6cf",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "c4b10031-c732-4c69-b4a9-36b8dc850d13",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "d2cc83df-5e41-4124-84ab-de350c5bfcaf",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9e838b5e-8f2e-4d9b-bc9d-d28e01d0d83f",
+                    "x": 32,
+                    "y": 16,
+                    "width": 2,
+                    "height": 12
                 }
             ]
         },
@@ -46789,30 +47428,12 @@
     ],
     "spriteSheets": [
         {
-            "id": "a2cc290c-acda-4760-beb7-faaa46fc739e",
-            "name": "fx-block",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "fx-block.png",
-            "inode": "8162774324899440",
-            "_v": 1627626602281
-        },
-        {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
             "name": "fx-empty",
             "numFrames": 1,
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "8725724278320754",
-            "_v": 1627626602281
-        },
-        {
-            "id": "5a20dd62-520d-4d87-9450-450cc5531818",
-            "name": "fx-map_marker",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "fx-map_marker.png",
-            "inode": "7881299348188794",
             "_v": 1627626602281
         },
         {
@@ -46831,15 +47452,6 @@
             "type": "animated",
             "filename": "fx-star.png",
             "inode": "177892185281135852",
-            "_v": 1627626602281
-        },
-        {
-            "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
-            "name": "inv-amulet",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "inv-amulet.png",
-            "inode": "8444249301610108",
             "_v": 1627626602281
         },
         {
@@ -46870,6 +47482,15 @@
             "_v": 1627626602281
         },
         {
+            "id": "45bb9e5e-c340-49b0-86fb-1fbde73c0a54",
+            "name": "npc-suzukas_hair",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "npc-suzukas_hair.png",
+            "inode": "41376821576805951",
+            "_v": 1627626935222
+        },
+        {
             "id": "87273927-d04a-4df7-86f2-64b62b51478d",
             "name": "npc-tibby",
             "numFrames": 6,
@@ -46879,30 +47500,12 @@
             "_v": 1627626602281
         },
         {
-            "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
-            "name": "player-cursor",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "player-cursor.png",
-            "inode": "4785074604371949",
-            "_v": 1627626602281
-        },
-        {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
             "name": "player-stheno",
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "4785074604371953",
-            "_v": 1627626602281
-        },
-        {
-            "id": "5820fdfe-68c8-4d6d-9318-670def503664",
-            "name": "trap-spike",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "trap-spike.png",
-            "inode": "8444249301610498",
             "_v": 1627626602281
         }
     ],
@@ -47829,6 +48432,14 @@
         {
             "id": "a885c475-630e-4ca4-9def-677b676fac7f__L0",
             "name": "Lost Ghost"
+        },
+        {
+            "id": "bcafc755-ac4c-452f-a198-045c6a28fd5d__L0",
+            "name": "Resting Oni"
+        },
+        {
+            "id": "10",
+            "name": "Suzuka Convo"
         }
     ],
     "engineFieldValues": [
@@ -47868,7 +48479,7 @@
         "showCollisions": true,
         "showConnections": "selected",
         "worldScrollX": 567,
-        "worldScrollY": 1899,
+        "worldScrollY": 1599,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
