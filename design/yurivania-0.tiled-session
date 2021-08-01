@@ -82,11 +82,11 @@
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 1,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 347,
-                "y": -89
+                "x": 257.3333333333333,
+                "y": 430.33333333333326
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
