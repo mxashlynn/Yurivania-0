@@ -50966,7 +50966,7 @@
                                 "__collapseElse": false,
                                 "__label": "Closing Cut Scene",
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -52362,7 +52362,7 @@
                                         "args": {
                                             "text": [
                                                 "Thank you for\nplaying!",
-                                                "You collected\n$28$/10 spirit\nenergies tonight!",
+                                                "You collected\n$28$ spirit\nenergies tonight!",
                                                 "Look forward to\nmore adventures in\nthe Midnight\nPalace~"
                                             ],
                                             "avatarId": "",
@@ -54519,9 +54519,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 3330,
-        "worldScrollY": 6420,
-        "zoom": 325,
+        "worldScrollX": 141,
+        "worldScrollY": 300,
+        "zoom": 125,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
