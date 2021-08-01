@@ -1755,11 +1755,11 @@
                 2,
                 2,
                 2,
-                0,
-                0,
-                0,
-                0,
-                0,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -1798,7 +1798,7 @@
                 2,
                 2,
                 2,
-                0,
+                2,
                 0,
                 0,
                 0,
@@ -42831,7 +42831,7 @@
                 4,
                 4,
                 0,
-                4,
+                0,
                 4,
                 4,
                 4,
@@ -49837,7 +49837,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "TIBBY: I remember\nthis place!  We're\nalmost there."
+                                                    "TIBBY: This is it,\nthe summit!"
                                                 ],
                                                 "avatarId": "",
                                                 "__collapse": false,
@@ -49979,7 +49979,7 @@
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "TIBBY: I remember\nthis place!  We're\nalmost there."
+                                                                "TIBBY: This is it,\nthe summit!"
                                                             ],
                                                             "avatarId": "",
                                                             "__collapse": false,
@@ -52570,7 +52570,7 @@
             "imageHeight": 144,
             "filename": "screen_3-controls.png",
             "inode": "6192449487924820",
-            "_v": 1627781946008
+            "_v": 1627791325742
         },
         {
             "id": "a9661218-ed09-4b36-8c43-c3e9c2bcb1ec",
@@ -53826,8 +53826,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 157,
-        "worldScrollY": 1758,
+        "worldScrollX": 622,
+        "worldScrollY": 1810,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
