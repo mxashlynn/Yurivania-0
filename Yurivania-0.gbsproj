@@ -31195,14 +31195,6 @@
                                         }
                                     },
                                     {
-                                        "id": "25c42f79-87dd-4fc5-bfd6-36d52b866cf3",
-                                        "command": "EVENT_ACTOR_SHOW",
-                                        "args": {
-                                            "actorId": "11b8833b-f657-4a2d-97a9-6d4168ba45d1",
-                                            "__collapse": true
-                                        }
-                                    },
-                                    {
                                         "id": "4646f163-a714-4348-8139-ef84b174b161",
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
@@ -31230,6 +31222,14 @@
                                                 "type": "direction",
                                                 "value": "down"
                                             },
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "25c42f79-87dd-4fc5-bfd6-36d52b866cf3",
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "11b8833b-f657-4a2d-97a9-6d4168ba45d1",
                                             "__collapse": true
                                         }
                                     },
@@ -51908,15 +51908,15 @@
     "settings": {
         "startSceneId": "73ad3210-5991-4718-8740-7a45e7c1fece",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 66,
-        "startY": 7,
+        "startX": 73,
+        "startY": 103,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 480,
-        "worldScrollY": 1561,
+        "worldScrollX": 576,
+        "worldScrollY": 2461,
         "zoom": 175,
         "customColorsEnabled": true,
         "customHead": "",
