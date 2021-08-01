@@ -28575,7 +28575,7 @@
                     "y": 103
                 },
                 {
-                    "name": "Spirit Energy",
+                    "name": "Spirit Energy 1",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
@@ -28585,9 +28585,125 @@
                     "animSpeed": 3,
                     "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
                     "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "5220cf52-7003-4325-9316-c2a8634b0ea8",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "ced4e0ec-48ab-41a1-9758-181f5c8618d1",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "8b05cfbf-0876-4c2d-a74f-0cc663b88830",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "b04cafbe-873a-4657-93c5-6115712eacaf",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "832d93e6-33f4-4d1d-98c7-9fbe1557be30",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "701c5c22-c1b6-4263-8390-2d42829b152c",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "278564ad-4c33-4698-a676-7ca1d390caa7",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "18"
+                            }
+                        },
+                        {
+                            "id": "3ddab240-e1cc-4b96-a97b-7e7661992d10",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "2e1d2c79-a4c3-42a3-8ef7-59dc8f069fac",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "3637208d-09f7-4624-ae8e-da97c5759612",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [
+                        {
+                            "id": "9be0109a-9aa5-4b56-9c23-35b3cd01ef6a",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "18",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "d49c481f-18e3-4dda-acca-daa752eb52d9",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "8ff6cedf-bc1b-4b3b-aaa9-1a1d23ab991d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "4b3b1b0b-5f54-4baa-94db-48fb2a8b025e",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "id": "5e630d47-ff8d-41a6-9cf4-8cdcbab9c25c",
                             "command": "EVENT_END"
@@ -30527,6 +30643,721 @@
                     "id": "93dba2a5-bc32-4c29-9f97-dc02ca8fafc3",
                     "x": 114,
                     "y": 5
+                },
+                {
+                    "name": "Spirit Energy 2",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "818703f8-801d-44a8-97e1-883024be4946",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "bd1c5000-71f6-4750-a5fe-7424a4a8c893",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "7078098d-3728-4014-a2e6-020eca341104",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "9b55dc65-ac49-4078-a32e-0521df89dc9f",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "3afc1c55-3efd-495b-90a7-117dca491a63",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "2c2af71e-40f8-4001-a28c-998680549654",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "70fa3640-b36f-4695-aca3-1cdf1f288288",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "19"
+                            }
+                        },
+                        {
+                            "id": "c731940b-11c6-4a20-b80b-0556f7a36512",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "2a44be45-4c24-496f-9f1e-2b7124ccdf0a",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "75a0cbc4-c347-42e8-ba41-354c481b49f9",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "a90cf0cb-e13b-47b8-a8a7-37f09f08660f",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "19",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "2221020d-37f9-46af-9000-d1e55f95e4ab",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "f43a3aec-94b1-4f7a-8947-ed9a2863ffde",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "f514531c-c3d7-4390-a15b-5286cbcb272f",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "6870e87c-6fbd-42fe-bedc-b73a9ca37b88",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "adc59bed-5d20-4e14-9af1-a5bbdaca7484",
+                    "x": 89,
+                    "y": 44
+                },
+                {
+                    "name": "Spirit Energy 3",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "1fef0fe4-86dc-420e-a759-2a0cdbe8c7f6",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "fa14d908-c235-44e3-9896-51190ebf6d4e",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "caca1110-67a3-4757-9e7d-3fa058cbdb90",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "0114d7d2-dd43-4c0d-a6b7-bf59f226c984",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "9ba4caa0-081c-46cb-8096-5ebbfe6c1cff",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "ee3779df-60eb-497a-a425-69f69354b301",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "15d94780-a846-42df-97dd-1803ff9b61e7",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "20"
+                            }
+                        },
+                        {
+                            "id": "20c3af7a-caba-4252-8518-78a0476a783d",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "0c46288b-5e87-4f57-a0fe-1f4b8f242622",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "8bafa982-836e-4312-8e4c-5d06df68f292",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "b718e89e-7702-40cc-9188-89506d455594",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "20",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "be6b77c8-bb30-4fac-9b9f-627bfeb3d0ef",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "22a89ea7-56c0-42b2-bf48-7d83ef91e99d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "f888dd34-abef-4ca1-8830-389cc0d3202a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "6fe0cc3a-19e9-40db-a885-fcfd8ea8c47e",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9a3f3da7-69b6-4f45-826e-ff76745dd67e",
+                    "x": 32,
+                    "y": 14
+                },
+                {
+                    "name": "Spirit Energy 4",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "6d2f08eb-37f9-4130-9248-60de5d68f3cc",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "5dcc7736-0c8f-4add-9c8f-dfd480167f66",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "e8d935e9-8fa4-4f00-b74b-a18413fe8c6a",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "34118d89-7b40-4f13-a8ef-54b5f15e2552",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "b4c0988f-12d0-4d40-8e38-0d5e3951a44f",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "01920dab-bb7f-417e-82bc-61f3ff583d69",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2624998d-10f9-4856-9cc9-8660b9ded83e",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "21"
+                            }
+                        },
+                        {
+                            "id": "ca74607c-8b6f-40ea-99eb-d21fe4eb37a5",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "019ff276-7ef2-462f-bca3-98caaabe884a",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "37eef479-0f05-4a7d-8205-790ff8f15bac",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "21f64d69-b93d-40e8-8e97-ca6c33b59c86",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "21",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "39add2e3-c8c0-4224-9eeb-8b36a158bebd",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "acae8dba-bf57-434a-9514-e97a72369b6b",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "7f98f52f-7228-4ab1-b712-d7033f6991f9",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7cca2d64-7ebf-4a43-b93f-50a1309214b7",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c9c45b2b-dd0e-4173-91b7-fb653720854c",
+                    "x": 6,
+                    "y": 101
+                },
+                {
+                    "name": "Spirit Energy 5",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "aebfac69-0e31-4343-bc6e-75c3c73fd8dc",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "b4bdea71-c92e-4bd9-9ef2-9aedca78712d",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "b8b3ae59-6078-4d90-bc31-9e1ab5a72b09",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "4354e56c-893b-4090-a3f9-09f7ad143a2e",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "b0520ea3-cdf7-4131-9312-a81a98bb02f4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "015eb59c-6f6b-4fce-9798-8f2e9c211009",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "e286999d-484f-410e-ba77-d79dfc3aaebe",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "22"
+                            }
+                        },
+                        {
+                            "id": "b55e8a69-f373-45e3-b93f-7878d75e6b13",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "8629f470-730f-45a1-80a6-accd7880e4a0",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "19f6a46d-e147-498c-9312-c9e7c29a4d87",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "9152eba2-18ec-40a7-ace4-800c16e0c0ea",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "22",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "060a8c9b-8f4e-4b3a-beea-fac9606533ff",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "b87d1f0b-3dc5-4444-8e31-e4b0d09b506c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "9d15b86e-8189-4b1a-b855-2f56c0c0a3cb",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "e987f016-e3ba-4bae-8133-e242f62c3ede",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8660bb14-44c7-403c-9988-72947282c999",
+                    "x": 104,
+                    "y": 23
+                },
+                {
+                    "name": "Spirit Energy 6",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "4c0289b6-2e13-4d9b-8cca-38891f020d65",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "7f759760-710b-4381-be23-98dcc7948567",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "dae71105-caa4-47e2-a62f-2c06b62d1dbb",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "a9b5e306-bdf6-47c3-8201-1247824de68f",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "a3acb1fb-3797-4180-b4bb-f9242dcc49e7",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "ad39742f-9ec9-4d15-be03-33f84de2e842",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f23ea089-6c9a-4928-a04e-341ebadefe1f",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "23"
+                            }
+                        },
+                        {
+                            "id": "70c0b6aa-0a40-4c8f-b10e-0acf7b5744cb",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "137c10d0-88bb-48ca-93df-ce8dcb53dccd",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "e9287f68-414a-4c9f-8c4a-cda38f34794f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "2eed1001-33c0-46bf-8760-30341a2ec1cf",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "23",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "8a22d338-8284-42b7-8b45-4a292c57442a",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "d05212a2-5774-4650-977b-a016bd0b2566",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "f7ea3a08-bac7-4608-afbc-c2f34f968e71",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "4961d0f7-988f-4cbb-95fb-5059d3393d6d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7b015ee0-3274-4322-8aae-9d48751349f2",
+                    "x": 68,
+                    "y": 53
                 }
             ],
             "triggers": [
@@ -30957,7 +31788,7 @@
                                             "actorId": "1e5138c0-ea2a-49be-9247-eb30ee9f8762",
                                             "x": {
                                                 "type": "number",
-                                                "value": 71
+                                                "value": 69
                                             },
                                             "y": {
                                                 "type": "number",
@@ -30965,6 +31796,22 @@
                                             },
                                             "moveType": "vertical",
                                             "useCollisions": false,
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "f2963973-f8bd-4e17-a0b7-9515760c9792",
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "1e5138c0-ea2a-49be-9247-eb30ee9f8762",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 71
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 75
+                                            },
                                             "__collapse": true
                                         }
                                     },
@@ -36619,6 +37466,149 @@
                     "id": "d6920bab-a0bf-4419-9c89-ba0e605303fb",
                     "x": 56,
                     "y": 29
+                },
+                {
+                    "name": "Spirit Energy 10",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "b37f082b-f7ac-42a3-a26a-d4650cce2c6f",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "091b5f06-6516-40fc-8522-370897120fde",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "37782113-1791-4dc4-91ba-a00288bd0206",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "2b5161aa-75ff-43ac-9fe5-ef1e119cce80",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "f77769ae-8ed9-4437-8364-835153f7d0e4",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "f48d36b3-0068-48ac-a1e1-224f213a148f",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2dda0818-19ca-430e-a471-897c8c949f5a",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "27"
+                            }
+                        },
+                        {
+                            "id": "142fbc66-60d9-4e82-848a-30bf9b1ce25b",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "f46fcc5b-45ff-4798-9200-e718549979a3",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "107f4a64-98a7-49e6-a55c-017bc12444b2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "21edfaac-687b-44eb-97d3-b2b2164e5f73",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "27",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "7f7094f4-0270-4186-a257-6ed96f806a53",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "7ef181e7-f0dc-4780-9827-556af1d8e5fd",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "27bb0bc4-62ed-450e-a2b3-5b64e6c99b3c",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f2f30fab-d632-41ad-be12-aed222d99578",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8c0040fa-5684-4fba-9f2f-4f645d3bdd32",
+                    "x": 41,
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -37019,8 +38009,8 @@
                 0,
                 0,
                 0,
-                2,
-                2,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -37099,8 +38089,8 @@
                 0,
                 0,
                 0,
-                18,
-                18,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -37180,7 +38170,7 @@
                 0,
                 0,
                 18,
-                18,
+                0,
                 0,
                 0,
                 0,
@@ -43272,6 +44262,436 @@
                     "id": "9b7d546c-bfd6-47df-8a35-1de61522c75d",
                     "x": 32,
                     "y": 27
+                },
+                {
+                    "name": "Spirit Energy 7",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "8ce67651-4246-4016-9ec1-24c994c2ac9a",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "fd2b71a4-ab7f-4615-8880-d1d31c52e370",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "68cf5f04-c278-4890-8657-ab75cb5226f8",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "dfb7dc39-a7e2-4dd8-a25d-b8f6180e54f1",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "3556b1a5-e55a-46eb-af34-2e1b961bcb64",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "aae8c40a-a5f0-482d-b3ba-88b5a8a90699",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "97fdf28b-bf06-42b9-b936-2dc26ba7a748",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "24"
+                            }
+                        },
+                        {
+                            "id": "7c8cf914-5993-45a7-8540-349ff225f213",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "2eeda57c-6652-4fbe-aa2b-6bb92336f433",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "f8210066-9bd6-4ef1-84dc-dd0d01dc6f7d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "2404ba51-de42-48c2-85fa-dd2614b120e3",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "24",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "ce965175-77b0-45cc-be3d-dae0d2516171",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "2b750c09-ec9a-4f56-a504-8c53e9030847",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "82629f0b-b41d-4e02-bda5-9f0ef46150ea",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "c8e607be-53de-4a66-9370-684fd98ba51f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "403b5472-4a67-42b5-8dbb-b81985bcf65c",
+                    "x": 35,
+                    "y": 5
+                },
+                {
+                    "name": "Spirit Energy 8",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "f78f5f32-7887-4ed7-9519-15c3095ee1ec",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "820700b3-bf49-4b67-914a-ed1fa5d7533b",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "6f0ee170-0780-4d3d-85e7-25aeb72e63cf",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "7c1f8e49-99c7-45e1-a78d-72e72e80eb47",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "2ea834d1-e718-42af-8a1c-0e5085a1c4d3",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "03cd01ec-2bc8-43bc-9da9-4ae8f3d9ad9e",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "360495e6-1a87-4659-9bd0-15a9da607507",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "25"
+                            }
+                        },
+                        {
+                            "id": "1c236b19-7d52-4e58-9cba-327e7a5035d2",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "479d5948-556d-4143-9eae-fcb1d7de7b07",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "875421f7-9955-4ab3-ae1e-f4a7c77496c1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "7d9fd881-33f6-4f38-b4c6-225dc73b2aa0",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "25",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "a90d273b-c731-42fd-ad2c-67da6945fa6c",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "aab869c1-50f6-49b9-9a38-8704651a8f13",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "197cbd06-c423-429e-a449-13061ffb9a8d",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "e3de4999-948e-452c-ad4e-aaed89bfd766",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a9f081bb-4bb7-49a8-a6eb-61bfdec31d86",
+                    "x": 0,
+                    "y": 12
+                },
+                {
+                    "name": "Spirit Energy 9",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e5b0ba80-1284-4ec0-969e-b77624da2c83",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "24213470-7d53-483a-b84b-63b36decf83f",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Ghost Found Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "317b0b59-1da5-4c58-9ce5-434bb9ef92d1",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "5b88571b-1f6b-4d4f-ad93-3f36a796cc8a",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "5c51bbde-cdc6-4093-935d-ce8baeec7286",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "e69bf49b-3c5b-4335-826e-1f902cf392f6",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "33b8f7f5-e7bf-4be2-965b-751f99e40d64",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f3b14c05-fcd4-4cfb-b509-9dfec23e0526",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "26"
+                            }
+                        },
+                        {
+                            "id": "8e23d509-c7b8-49ab-a349-3652e539c8f9",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "28"
+                            }
+                        },
+                        {
+                            "id": "90e78ceb-57a2-42cf-b6db-22df9f13388a",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "8ebd874e-7045-4d63-9a13-25df9f4e1e82",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "fddd11fe-3b3c-41bc-b015-15f3c5550215",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "26",
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "ea88fe02-72ab-4e56-ab60-cba1d458b32b",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "90a31ae4-c238-4269-bb31-ec213253c5fa",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "88484b5d-8e6b-44a0-b1b2-22e80f3bf14a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fa0bc1af-6a0f-4ea7-aa58-1d936c97a9be",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3bfe1a6b-cf72-48fb-b6f0-cd98687204dd",
+                    "x": 52,
+                    "y": 10
                 }
             ],
             "triggers": [
@@ -49293,7 +50713,8 @@
                                         "args": {
                                             "x": 39,
                                             "y": 13,
-                                            "speed": "2"
+                                            "speed": "2",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -49301,7 +50722,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "d31a973d-bee0-47f8-8664-11a5e00dc6b6",
-                                            "emoteId": "7"
+                                            "emoteId": "7",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -49309,7 +50731,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "d31a973d-bee0-47f8-8664-11a5e00dc6b6",
-                                            "emoteId": "2"
+                                            "emoteId": "2",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -49317,7 +50740,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "d31a973d-bee0-47f8-8664-11a5e00dc6b6",
-                                            "emoteId": "0"
+                                            "emoteId": "0",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -49691,7 +51115,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "Send Last to Portal",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -49731,7 +51155,7 @@
                                                     "id": "a7ace2ab-458b-4899-9975-6fb130a3356e",
                                                     "command": "EVENT_WAIT",
                                                     "args": {
-                                                        "time": 2
+                                                        "time": 1
                                                     }
                                                 },
                                                 {
@@ -49743,6 +51167,13 @@
                                                             "type": "direction",
                                                             "value": "left"
                                                         }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "c396461f-05f2-4e70-bb65-319a94c7a06b",
+                                                    "command": "EVENT_WAIT",
+                                                    "args": {
+                                                        "time": 1
                                                     }
                                                 },
                                                 {
@@ -51877,6 +53308,50 @@
         {
             "id": "17",
             "name": "Rescued Ghost 6"
+        },
+        {
+            "id": "18",
+            "name": "Collected Energy 1"
+        },
+        {
+            "id": "19",
+            "name": "Collected Energy 2"
+        },
+        {
+            "id": "20",
+            "name": "Collected Energy 3"
+        },
+        {
+            "id": "21",
+            "name": "Collected Energy 4"
+        },
+        {
+            "id": "22",
+            "name": "Collected Energy 5"
+        },
+        {
+            "id": "23",
+            "name": "Collected Energy 6"
+        },
+        {
+            "id": "24",
+            "name": "Collected Energy 7"
+        },
+        {
+            "id": "25",
+            "name": "Collected Energy 8"
+        },
+        {
+            "id": "26",
+            "name": "Collected Energy 9"
+        },
+        {
+            "id": "27",
+            "name": "Collected Energy 10"
+        },
+        {
+            "id": "28",
+            "name": "How Much Energy Collected"
         }
     ],
     "engineFieldValues": [
@@ -51908,15 +53383,15 @@
     "settings": {
         "startSceneId": "73ad3210-5991-4718-8740-7a45e7c1fece",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 73,
-        "startY": 103,
+        "startX": 65,
+        "startY": 101,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 576,
-        "worldScrollY": 2461,
+        "worldScrollX": 517,
+        "worldScrollY": 719,
         "zoom": 175,
         "customColorsEnabled": true,
         "customHead": "",
