@@ -28861,7 +28861,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "GHOST: Thanks so\nmuch!  How\nembarressing\nthis has been!"
+                                                "GHOST: Thanks so\nmuch!  How\nembarrassing\nthis has been!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -28929,18 +28929,19 @@
                                         }
                                     },
                                     {
+                                        "id": "b1a42036-02d2-43ba-b53e-0190e63c2ae5",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "12",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
                                         "id": "00f9a611-19ec-448a-9d68-69686b09c919",
                                         "command": "EVENT_SET_FALSE",
                                         "args": {
                                             "variable": "1",
                                             "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "b1a42036-02d2-43ba-b53e-0190e63c2ae5",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "12"
                                         }
                                     },
                                     {
@@ -29186,18 +29187,19 @@
                                         }
                                     },
                                     {
+                                        "id": "528bda6c-776d-4ea0-8b5b-ec7bb5d29790",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "13",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
                                         "id": "061f79ce-7550-48d4-95dd-4cdbee48c3b3",
                                         "command": "EVENT_SET_FALSE",
                                         "args": {
                                             "variable": "1",
                                             "__collapse": true
-                                        }
-                                    },
-                                    {
-                                        "id": "528bda6c-776d-4ea0-8b5b-ec7bb5d29790",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "13"
                                         }
                                     },
                                     {
@@ -31632,6 +31634,14 @@
                     "trigger": "walk",
                     "script": [
                         {
+                            "id": "eaef200a-ebd7-4830-9480-a2988e6e3dbb",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
+                            }
+                        },
+                        {
                             "id": "2033456d-d3de-4e1c-847f-5d17366e53a9",
                             "command": "EVENT_IF_FALSE",
                             "args": {
@@ -31988,6 +31998,14 @@
                             }
                         },
                         {
+                            "id": "aebdd332-83f2-4e48-ab84-41775dde4b09",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
+                            }
+                        },
+                        {
                             "id": "020e8b95-2396-47c6-b33c-7a294b4386a3",
                             "command": "EVENT_END"
                         }
@@ -32003,13 +32021,22 @@
                     "trigger": "walk",
                     "script": [
                         {
+                            "id": "464094aa-4cea-4cf3-8f2a-09780d3671a2",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
+                            }
+                        },
+                        {
                             "id": "a49863ec-bb1f-4594-92f7-9e3836a34b27",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "6",
                                 "__collapseElse": false,
                                 "__label": "Quest Convo",
-                                "__disableElse": true
+                                "__disableElse": true,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -32166,7 +32193,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "GHOST: Wow, am I\nevery glad you two\ncame along!",
+                                                "GHOST: Wow, am I\never glad you two\ncame along!",
                                                 "I heard a new\nportal was opening\nhere tonight,",
                                                 "so I was on my way\nto check it out^",
                                                 "^but, I got lost^\nand then I got\nstuck!"
@@ -32382,6 +32409,14 @@
                                         "command": "EVENT_END"
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id": "d61a6e42-cb36-46aa-9bef-4fdaf07b9da3",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
                             }
                         },
                         {
@@ -37199,6 +37234,14 @@
                             }
                         },
                         {
+                            "id": "c11e29a1-f0d8-4445-ae2c-cd3c8e215282",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
+                            }
+                        },
+                        {
                             "id": "718f2a56-84a9-42fd-ae29-c48ecc52370c",
                             "command": "EVENT_SET_INPUT_SCRIPT",
                             "args": {
@@ -37498,6 +37541,14 @@
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
+                                "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "bf23e2ba-252f-4c4d-8c9b-bf219b934df5",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1",
                                 "__collapse": true
                             }
                         },
@@ -44788,14 +44839,22 @@
                     "trigger": "walk",
                     "script": [
                         {
+                            "id": "54bcb221-b3ea-4a0c-87e6-e78a30c6c84c",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
+                            }
+                        },
+                        {
                             "id": "5165e4aa-2401-4fbd-9639-7a5b8ee84279",
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "10",
                                 "__collapseElse": false,
                                 "__disableElse": true,
-                                "__label": "Spirit Energy Convo",
-                                "__collapse": false
+                                "__label": "Suzuka Convo",
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -45159,6 +45218,14 @@
                                         "command": "EVENT_END"
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id": "3f4b6efb-a543-429f-829a-3186bf6582ab",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
                             }
                         },
                         {
@@ -50195,6 +50262,14 @@
                     "collisionGroup": "1",
                     "script": [
                         {
+                            "id": "e289d88d-5c0f-4ff8-9aa1-3e01c68bda2c",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "1",
+                                "__collapse": true
+                            }
+                        },
+                        {
                             "id": "fbd09821-fe84-414e-acd2-fe1a183fdc3e",
                             "command": "EVENT_IF_FALSE",
                             "args": {
@@ -53751,8 +53826,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 110,
-        "worldScrollY": 108,
+        "worldScrollX": 503,
+        "worldScrollY": 700,
         "zoom": 125,
         "customColorsEnabled": true,
         "customHead": "",
