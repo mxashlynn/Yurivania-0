@@ -18,6 +18,7 @@ This is a side-story and prequel to [Yurivania](https://github.com/mxashlynn/Yur
 # Known Issues ⚠️
 
 1. You have to hop up the stairs rather than walk up them, and their collision isn't great.  It's too easy to fall off.
+2. Rescued ghosts are sometimes miscounted.
 
 Please report any other issues you find!
 
