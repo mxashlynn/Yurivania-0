@@ -74,27 +74,27 @@
             }
         },
         "backgrounds/area_1-foothill_path.tmx": {
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240,
-                "y": 144
+                "x": 149.66666666666669,
+                "y": 109.33333333333334
             }
         },
         "backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 0.75,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 605.3333333333333,
-                "y": 256
+                "x": 347,
+                "y": -89
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 229,
-                "y": 145
+                "x": 246,
+                "y": 144.5
             }
         },
         "backgrounds/area_4-summit.tmx": {
