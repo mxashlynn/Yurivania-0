@@ -28127,7 +28127,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Party Talk",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -28139,7 +28139,7 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "If Not Menu Open",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -28150,7 +28150,7 @@
                                                 "variable": "6",
                                                 "__collapseElse": false,
                                                 "__label": "Party Talk",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -28178,7 +28178,7 @@
                                                         "command": "EVENT_IF_VALUE",
                                                         "args": {
                                                             "variable": "8",
-                                                            "operator": ">",
+                                                            "operator": "==",
                                                             "comparator": "0",
                                                             "__collapseElse": false,
                                                             "__label": "If Haven't Found Everyone"
@@ -28186,11 +28186,11 @@
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "9d736d25-e4b8-418b-aeff-e09f487c8a88",
+                                                                    "id": "4041ad2c-b550-4cb2-88b4-251576e583e3",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "TIBBY: I think\nthere are $08$\nghosts lost\nnearby^."
+                                                                            "TIBBY: I think we\nfound everyone!\nLet's head up!"
                                                                         ],
                                                                         "avatarId": ""
                                                                     }
@@ -28202,11 +28202,59 @@
                                                             ],
                                                             "false": [
                                                                 {
-                                                                    "id": "76f05ac7-4527-4cb3-b630-fd504f9fb8e3",
+                                                                    "id": "3236ebaa-0879-4997-9d73-1e4bcc6cd451",
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "8",
+                                                                        "operator": "==",
+                                                                        "comparator": 1,
+                                                                        "__collapseElse": false,
+                                                                        "__label": "Conjugate Dialogue"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "624efeb4-a624-4fd2-b382-540004af6c41",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "TIBBY: I\ncould be wrong,\nbut^",
+                                                                                        "^I think\nthere's still\none ghost lost\nnearby."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "2b093884-4a51-42cd-8263-0c14842e1a85",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "808cfafd-2312-4d4b-bed0-a95ba5762052",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "TIBBY: I\ncould be wrong,\nbut^",
+                                                                                        "^I think\nthere are $08$\nghosts lost\nnearby."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "44729dea-286a-4254-ad06-dd14dbace55a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "4719a9e6-4fba-41a2-baa7-d7ebdc4169ca",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "TIBBY: I think we\nfound everyone!\nLet's head up!"
+                                                                            "TIBBY: I\ncould be wrong,\nbut^",
+                                                                            "^I think\nthere are $08$\nghosts lost\nnearby."
                                                                         ],
                                                                         "avatarId": ""
                                                                     }
