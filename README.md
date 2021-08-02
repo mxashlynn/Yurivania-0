@@ -2,7 +2,7 @@
 
 ![very gay](https://img.shields.io/badge/very-gay-ac276c?style=plastic)
 
-# Yurivania 0: Soul Night Prelude 🌱🐍
+# Yurivania 0: Soul Night Prelude 🦴🐍
 
 Monstergirls work together to help out some lost ghosts~!
 
@@ -17,13 +17,10 @@ This is a side-story and prequel to [Yurivania](https://github.com/mxashlynn/Yur
 
 # Known Issues ⚠️
 
-1. You have to hop up the stairs rather than walk up them, and their collision isn't great.  It's too easy to fall off.
-2. Rescued ghosts are sometimes miscounted.
-
-Please report any other issues you find!
+1. You have to hop up the stairs rather than walk up them.
 
 
-# How to Play 🏰🎮
+# How to Play 🎮
 
 You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania-0)!
 
@@ -55,11 +52,12 @@ You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io
 # Features 🎭🗺️
 
 1. 2D side-scrolling exploration.
-2. NPC rescue.
-3. Backstory for Yurivania 1.
+2. NPCs to rescue.
+3. Optional energy-collecting minigame.
+4. Backstory for Yurivania 1.
 
 
-# Requirements 🛡️🦴
+# Requirements 💻
 
 This game was built with [GB Studio 2.0-beta 5](https://github.com/RichardULZ/gb-studio/tree/fix/beta5),
 using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
