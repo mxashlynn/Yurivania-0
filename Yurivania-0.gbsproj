@@ -28127,7 +28127,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Party Talk",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -28139,7 +28139,7 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "If Not Menu Open",
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -28150,7 +28150,7 @@
                                                 "variable": "6",
                                                 "__collapseElse": false,
                                                 "__label": "Party Talk",
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "children": {
                                                 "true": [
@@ -28249,17 +28249,6 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "4719a9e6-4fba-41a2-baa7-d7ebdc4169ca",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": [
-                                                                            "TIBBY: I\ncould be wrong,\nbut^",
-                                                                            "^I think\nthere are $08$\nghosts lost\nnearby."
-                                                                        ],
-                                                                        "avatarId": ""
-                                                                    }
-                                                                },
-                                                                {
                                                                     "id": "37c8d050-4498-4286-aa45-08fdc956e08a",
                                                                     "command": "EVENT_END"
                                                                 }
@@ -28315,7 +28304,7 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "If Not Menu Open",
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -28449,7 +28438,7 @@
                                                 ],
                                                 "true1": [
                                                     {
-                                                        "id": "7407ee53-4ed8-4ea5-a70c-98d20d00051b",
+                                                        "id": "2c806c6a-e924-457f-9313-e00a101c016b",
                                                         "command": "EVENT_IF_FALSE",
                                                         "args": {
                                                             "variable": "6",
@@ -28460,7 +28449,7 @@
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "297d7769-0543-40dd-b665-bb7e77418235",
+                                                                    "id": "c84782f1-ba30-4eaf-b554-6398db3b20ff",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
@@ -28473,17 +28462,17 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "a454c0db-a724-4d24-b9b1-0966785c391f",
+                                                                    "id": "f15ad24e-6f1f-4cde-a7a2-28a122f926cb",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ],
                                                             "false": [
                                                                 {
-                                                                    "id": "519c9fef-5629-4542-be50-790db990a66d",
+                                                                    "id": "8d00e228-6c59-43dc-bf4a-607118243789",
                                                                     "command": "EVENT_IF_VALUE",
                                                                     "args": {
                                                                         "variable": "8",
-                                                                        "operator": ">",
+                                                                        "operator": "==",
                                                                         "comparator": "0",
                                                                         "__collapseElse": false,
                                                                         "__label": "If Haven't Found Everyone"
@@ -28491,23 +28480,7 @@
                                                                     "children": {
                                                                         "true": [
                                                                             {
-                                                                                "id": "8296b22a-fde3-4f79-a5a4-b5054754c02f",
-                                                                                "command": "EVENT_TEXT",
-                                                                                "args": {
-                                                                                    "text": [
-                                                                                        "TIBBY: I think\nthere are $08$\nghosts lost\nnearby^."
-                                                                                    ],
-                                                                                    "avatarId": ""
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "id": "17cc9759-7bbe-4dd2-a4d0-156823855d63",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "false": [
-                                                                            {
-                                                                                "id": "2ee4425f-f861-41ce-9516-ed54198d5a4b",
+                                                                                "id": "0c63db77-55c3-48d1-83d9-6c884feffe23",
                                                                                 "command": "EVENT_TEXT",
                                                                                 "args": {
                                                                                     "text": [
@@ -28517,14 +28490,67 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": "3d215639-576b-4e68-8f3d-2d753aabb203",
+                                                                                "id": "de89c6f8-7d74-493a-9354-0755e9c31d87",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "d4b65963-3a4a-4ff5-9243-03f53b61ca8f",
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "8",
+                                                                                    "operator": "==",
+                                                                                    "comparator": 1,
+                                                                                    "__collapseElse": false,
+                                                                                    "__label": "Conjugate Dialogue"
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "303ccdfc-f692-4ad8-af39-8cee17d87d14",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "TIBBY: I\ncould be wrong,\nbut^",
+                                                                                                    "^I think\nthere's still\none ghost lost\nnearby."
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "9b80800f-1c74-4307-b48f-08212d63d4fa",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "996a82c8-cd66-49e7-8770-d173c50a0a00",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "TIBBY: I\ncould be wrong,\nbut^",
+                                                                                                    "^I think\nthere are $08$\nghosts lost\nnearby."
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "85093b6c-4d61-464a-b677-b6ef9c4b1052",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "3b4a31f8-24c8-4e87-a509-a6eef511c8e6",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ]
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "ac507802-e78e-4769-93ad-d36b629b3535",
+                                                                    "id": "9c8efffb-09dd-4eea-b0ac-a8af2b4de3b4",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ]
