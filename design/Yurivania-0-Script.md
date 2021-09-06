@@ -6,20 +6,20 @@ version 1.2, September 6, 2021
 ## 0. Intro
 
 1. Logo / Credits Screen
-    - 🖤 Trans Game Dev Birthday Jam 2021 🖤
-    - Design, Scenario, Graphics, Code: Paige Ashlynn
-    - Music: Caidence Stone
-    - Fonts: Jeremy Odubere, Clint Bellanger
+    - "🖤 Trans Game Dev Birthday Jam 2021 🖤"
+    - "Design, Scenario, Graphics, Code: Paige Ashlynn"
+    - "Music: Caidence Stone"
+    - "Fonts: Jeremy Odubere, Clint Bellanger"
 2. Title Screen
-    - YURIVANIA
-    - Soul Night Prelude
-    - _intro_jingle_
-    - Press Start
-    - _if_no_game_is_saved_
-        - Cut to an explanation of controls, then Area: Foothill Path.
-    - _otherwise_
-        - Offer to load saved game or begin anew.
-        - The rest of the script assumes the player is beginning a new game.
+    - "YURIVANIA"
+    - "Soul Night Prelude"
+    - **Play intro jingle**
+    - "Press Start"
+    - **If no game is saved**
+        - *Cut to an explanation of controls, then Area: Foothill Path.*
+    - **Otherwise**
+        - *Offer to load saved game or begin anew.*
+        - *The rest of the script assumes the player is beginning a new game.*
 3. Opening Narration
     - NARRATOR:  Many years ago in the Midnight Palace....
 
@@ -27,7 +27,7 @@ version 1.2, September 6, 2021
 ## 1. Area: Foothill Path
 Tibby, a walking skeleton, and Stheno, a masked gorgon, exit the Midnight Palace together.  
 
-They are on a tree-lined walk, perhaps an orchad path, leading from the tall
+They are on a tree-lined walk, perhaps an orchard path, leading from the tall
 rough-cut stone of the Palace's exterior to a steep set of ascending steps.
 Beyond the trees a wind of the palaces comes to an abrupt end.
 Above it tall, steep mountains loom against a dark, star-filled sky.
@@ -57,14 +57,14 @@ I'm going to stick close to you!
 
 STHENO: Cool by me!  Let's go!
 
-_PLAY_begins._
+**PLAY begins.**
 
-_Party_Talk_  
+**Party Talk**  
 TIBBY: The mountain is quite steep....  Let's follow the path left and take the stairway.
 
 
 ## 2. Area: Mountain Stair
-Stheno leads Tibby up the stairs to the foot of a massive overhanding cliff.
+Stheno leads Tibby up the stairs to the foot of a massive overhanging cliff.
 There are more trees here, scattered along the stony ground, as well as some outlying Palace buildings.
 A big full moon gleams down from over the crags, lighting up a wide flat space of paving and wild plants.
 From here they can see a long, wide stone staircase cut into the mountainface, switching back and forth as it climbs.
@@ -110,37 +110,37 @@ STHENO: No worries, we're on the case!
 
 TIBBY, to Stheno: They're right.  I sense six ghosts lost nearby.
 
-_PLAY_resumes._
+**PLAY resumes.**
 
-_Party_Talk_  
-- _if_ghosts_remain_lost_  
-    - TIBBY: I could be wrong, but... I think there are _number_of_lost_ghosts_ ghosts lost nearby.
-- _otherwise_  
+**Party Talk**  
+- **If ghosts remain lost**  
+    - TIBBY: I could be wrong, but... I think there are `how-many-lost-ghosts` ghosts lost nearby.
+- **Otherwise**  
     - TIBBY: I think we found everyone!  Let's head up!
 
-_On_attempting_to_exit_upward_before_finding_all_lost_ghosts_  
+**On attempting to exit upward before finding all lost ghosts**  
 TIBBY: This is the way to the top, but I don't think we've found everyone yet.
 Let's take another look around.
 
-_On_rescuing_Ghost_1_  
+**On rescuing Ghost 1**  
 GHOST 1: Thanks so much!  How embarrassing this has been!
 
 (The ghost displays a grateful heart emote.)
 
-_On_rescuing_Ghost_2_  
+**On rescuing Ghost 2**  
 GHOST 2: Wow, you're quite the dare devil!!
 I'm gonna stick with you till we get to the top!
 
 (The ghost displays a shocked emote.)
 
-_On_rescuing_Ghost_3_  
+**On rescuing Ghost 3**  
 GHOST 3: Oh, hi!
 The stars in the mountains are always so beautiful on Soul Night.  I got quite distracted!
 If it's all right, I'll follow you to the summit.
 
 (The ghost displays a grateful heart emote.)
 
-_On_rescuing_Ghost_4_  
+**On rescuing Ghost 4**  
 GHOST 4: Oh, bother.  How did I end up here?
 With all the spirit energy around, I can hardly tell up from down.
 Would you be able to help me?
@@ -151,7 +151,7 @@ GHOST: Wonderful!
 
 (The ghost displays a grateful heart emote.)
 
-_On_rescuing_Ghost_5_    
+**On rescuing Ghost 5**    
 (The ghost displays a thinking pause emote.)
 
 GHOST 5: Nope, there's no way up here....
@@ -164,7 +164,7 @@ STHENO: Yep!  In fact, we came to offer you a hand.
 
 GHOST: Well, aren't you a blessing!  Let's get going!
 
-_On_rescuing_Ghost_6_  
+**On rescuing Ghost 6**  
 GHOST 6: Oh, thank goodness!  People!
 I was afraid I'd be stuck here all night!
 I thought these ropes would lead to the top, but they end at this platform.
@@ -172,7 +172,7 @@ Y'all're my heroes for coming out here to save me!
 
 (The ghost displays a grateful heart emote.)
 
-_On_finding_all_lost_ghosts_  
+**On finding all lost ghosts**  
 TIBBY: That's everyone!  Let's head to the Portal!
 
 
@@ -235,12 +235,12 @@ Totally.  Not weird at all.
 
 (The party climbs up onto the vines and continues upwards.)
 
-_PLAY_resumes._
+**PLAY resumes.**
 
-_Party_Talk_  
+**Party Talk**  
 TIBBY: I remember this place!  We're almost there.
 
-_On_reaching_Lucy's_ledge_  
+**On reaching Lucy's ledge**  
 LUCY: You're quite adventurous to find me up here.  Let's keep this little moon-drenched shelf between us.
 
 
@@ -251,12 +251,12 @@ spreading out on all hands.  Above them the night sky stretches black and clear,
 stars.  It seems quite a crowd has assembled here tonight.  Alraune the plantgirl is rooted near the edge
 so that her vines can trail down below.  A tall, slinky vampire woman is standing there also, talking with her.
 
-_PLAY_continues._
+**PLAY continues.**
 
-_Party_Talk_  
+**Party Talk**  
 TIBBY: This is it, the summit!
 
-_On_reaching_Alraune_  
+**On reaching Alraune**  
 The company approaches Alraune and the vampire.
 The ghosts, for the moment forgotten, hang back
 on the shadowy edge of the festivities.
@@ -332,11 +332,11 @@ GHOST 1: Thanks so much, Tibby and Stheno.
 We wouldn't have made it without you.
 See you, one day, on the other side!
 
-_If_the_player_has_not_collected_sufficient_spirit_energies_
+**If the player has not collected sufficient spirit energies**
 - (Pan upwards away from the crowd and the Portal to show the distant glowing moon.)
-- _Cut_to_CLOSING_NARRATION_
+- **Cut to CLOSING NARRATION**
 
-_Otherwise_  
+**Otherwise**  
 Stheno pauses for a moment, then turns back.
 Stheno retraces her steps back to where Alraune is waiting.
 
@@ -359,7 +359,7 @@ The truth is... I've been crushing on you for a long time!
 
 NARRATOR:  Thank you for playing!
 
-You collected _number_of_spirit_energies_ spirit energies tonight!
+You collected `how-many-spirit-energies` spirit energies tonight!
 
 Look forward to more adventures in the Midnight Palace~~
 
