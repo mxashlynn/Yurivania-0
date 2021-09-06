@@ -113,12 +113,12 @@ TIBBY, to Stheno: They're right.  I sense six ghosts lost nearby.
 _PLAY_resumes._
 
 _Party_Talk_  
-    - _if_ghosts_remain_lost_  
-    TIBBY: I could be wrong, but... I think there are _number_of_lost_ghosts_ ghosts lost nearby.
-    - _otherwise_  
-    TIBBY: I think we found everyone!  Let's head up!
+- _if_ghosts_remain_lost_  
+    - TIBBY: I could be wrong, but... I think there are _number_of_lost_ghosts_ ghosts lost nearby.
+- _otherwise_  
+    - TIBBY: I think we found everyone!  Let's head up!
 
-_On_attempting_to_exit_upward_before_finding_all_lost_ghosts_
+_On_attempting_to_exit_upward_before_finding_all_lost_ghosts_  
 TIBBY: This is the way to the top, but I don't think we've found everyone yet.
 Let's take another look around.
 
@@ -333,8 +333,8 @@ See you, one day, on the other side!
 _If_the_player_has_not_collected_sufficient_spirit_energies_
 - (Pan upwards away from the crowd and the Portal to show the distant glowing moon.)
 - _Cut_to_CLOSING_NARRATION_
-_Otherwise_
 
+_Otherwise_  
 Stheno pauses for a moment, then turns back.
 Stheno retraces her steps back to where Alraune is waiting.
 
@@ -356,7 +356,9 @@ The truth is... I've been crushing on you for a long time!
 ## 5. Closing Narration
 
 NARRATOR:  Thank you for playing!
+
 You collected _number_of_spirit_energies_ spirit energies tonight!
+
 Look forward to more adventures in the Midnight Palace~~
 
 
