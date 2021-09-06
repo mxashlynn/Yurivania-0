@@ -1,6 +1,6 @@
 # Yurivania 0: Soul Night Prelude
 by Paige Ashlynn
-version 1.1, August 1, 2021
+version 1.2, September 6, 2021
 
 
 ## 0. Intro
