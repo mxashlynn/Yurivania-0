@@ -274,6 +274,8 @@ Baphy's about to say the final incantation.
 
 TIBBY: Sweet!  I'm so glad we made it.
 
+(Stheno and Alraune glance at each other.)
+
 (Stheno displays an embarrassed blush emote.)
 
 (Alraune displays an embarrassed blush emote.)
