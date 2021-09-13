@@ -29,8 +29,8 @@ Tibby, a walking skeleton, and Stheno, a masked gorgon, exit the Midnight Palace
 
 They are on a tree-lined walk, perhaps an orchard path, leading from the tall
 rough-cut stone of the Palace's exterior to a steep set of ascending steps.
-Beyond the trees a wind of the palaces comes to an abrupt end.
-Above it tall, steep mountains loom against a dark, star-filled sky.
+Beyond the trees a wing of the palace comes to an abrupt end.
+Above it loom tall, steep mountains against a dark, star-filled sky.
 
 TIBBY: It's Soul Night at last!  I can't believe it!
 
@@ -187,7 +187,7 @@ with them.  A large red oni is standing at the nearest gap, holding some tools.
 
 TIBBY: Suzuka!
 
-SUZUKA, the oni ranger, turning to greet them: Heya Tibby.  On your way to the ceremony?
+SUZUKA, the oni, turning to greet them: Heya Tibby.  On your way to the ceremony?
 
 TIBBY: Yes, we were.  But what's going on here?
 
@@ -311,9 +311,8 @@ is represented at tonight's ceremony.
 
 Stheno finds Tibby and Josette on the edge of a ring
 of stone blocks from which rise four tall stone pillars.
-Above each pillar a pale flame flickers.  In the center
-Baphomet, the demon elder, is seated, a look of concentration
-on her face.
+Above each pillar a pale flame flickers.  Seated in the center,
+Baphomet, the demon elder, concentrates.
 
 As the assembly watches Baphomet utters an indecipherable
 incantation.  Immediately there is a bright flash and
