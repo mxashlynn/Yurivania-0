@@ -185,35 +185,35 @@ void Update_Platform() {
   tile_y_ceil = (pl_pos_y - 7u) >> 7;
 
   if (pl_vel_x < 0) {
-      // Left Stairs
-      if (TileAt(tile_x, tile_y) == (COLLISION_RIGHT & TILE_PROP_LADDER)) {
-          tile_y -= 1;
-          pl_pos_y = ((tile_y * 8) << 4);
-          pl_vel_y = -plat_walk_vel;
-          // Left Collision
-      }
-      else if (TileAt(tile_x, tile_y) & COLLISION_RIGHT ||
-          TileAt(tile_x, tile_y_ceil) & COLLISION_RIGHT) {
-          pl_vel_x = 0;
-          pl_pos_x = ((tile_x + 1) * 8) << 4;
-          tile_x = pl_pos_x >> 7;
-      }
+    // Left Stairs
+    if (TileAt(tile_x, tile_y) == (COLLISION_RIGHT & TILE_PROP_LADDER)) {
+      tile_y -= 1;
+      pl_pos_y = ((tile_y * 8) << 4);
+      pl_vel_y = -plat_walk_vel;
+    } else
+    // Left Collision
+    if (TileAt(tile_x, tile_y) & COLLISION_RIGHT ||
+        TileAt(tile_x, tile_y_ceil) & COLLISION_RIGHT) {
+      pl_vel_x = 0;
+      pl_pos_x = ((tile_x + 1) * 8) << 4;
+      tile_x = pl_pos_x >> 7;
+    }
   }
 
   if (pl_vel_x > 0) {
-      // Right Stairs
-      if (TileAt(tile_x + 1, tile_y) == (COLLISION_LEFT & TILE_PROP_LADDER)) {
-          tile_y -= 1;
-          pl_pos_y = ((tile_y * 8) << 4);
-          pl_vel_y = -plat_walk_vel;
-          // Right Collision
-      }
-      else if (TileAt(tile_x + 1, tile_y) & COLLISION_LEFT ||
-          TileAt(tile_x + 1, tile_y_ceil) & COLLISION_LEFT) {
-          pl_vel_x = 0;
-          pl_pos_x = (tile_x * 8) << 4;
-          tile_x = pl_pos_x >> 7;
-      }
+    // Right Stairs
+    if (TileAt(tile_x + 1, tile_y) == (COLLISION_LEFT & TILE_PROP_LADDER)) {
+      tile_y -= 1;
+      pl_pos_y = ((tile_y * 8) << 4);
+      pl_vel_y = -plat_walk_vel;
+    } else
+    // Right Collision
+    if (TileAt(tile_x + 1, tile_y) & COLLISION_LEFT ||
+        TileAt(tile_x + 1, tile_y_ceil) & COLLISION_LEFT) {
+      pl_vel_x = 0;
+      pl_pos_x = (tile_x * 8) << 4;
+      tile_x = pl_pos_x >> 7;
+    }
   }
 
   if (on_ladder) {
