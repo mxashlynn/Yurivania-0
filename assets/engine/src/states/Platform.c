@@ -186,7 +186,7 @@ void Update_Platform() {
 
   if (pl_vel_x < 0) {
     // Left Stairs
-    if (TileAt(tile_x, tile_y) == (COLLISION_RIGHT & TILE_PROP_LADDER)) {
+    if (TileAt(tile_x, tile_y) == (COLLISION_RIGHT | TILE_PROP_LADDER)) {
       tile_y -= 1;
       pl_pos_y = ((tile_y * 8) << 4);
       pl_vel_y = -plat_walk_vel;
@@ -202,7 +202,7 @@ void Update_Platform() {
 
   if (pl_vel_x > 0) {
     // Right Stairs
-    if (TileAt(tile_x + 1, tile_y) == (COLLISION_LEFT & TILE_PROP_LADDER)) {
+    if (TileAt(tile_x + 1, tile_y) == (COLLISION_LEFT | TILE_PROP_LADDER)) {
       tile_y -= 1;
       pl_pos_y = ((tile_y * 8) << 4);
       pl_vel_y = -plat_walk_vel;
