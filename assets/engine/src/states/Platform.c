@@ -251,6 +251,7 @@ void Update_Platform() {
     } else {
       grounded = FALSE;
 
+      /*
       // Ceiling Collision
       if (pl_vel_y < 0) {
         if (TileAt(tile_x, tile_y - 1) & COLLISION_BOTTOM ||  // Left Edge
@@ -261,6 +262,7 @@ void Update_Platform() {
           pl_pos_y = (((tile_y + 1) * 8) << 4);
         }
       }
+      */
     }
   }
 
