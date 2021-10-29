@@ -186,31 +186,21 @@ void Update_Platform() {
 
   // Left Collision
   if (pl_vel_x < 0) {
-    if (TileAt(tile_x, tile_y_ceil) & COLLISION_RIGHT ||
-        TileAt(tile_x, tile_y) & COLLISION_ALL) {
+    if (TileAt(tile_x, tile_y) & COLLISION_RIGHT || 
+        TileAt(tile_x, tile_y_ceil) & COLLISION_RIGHT) {
       pl_vel_x = 0;
       pl_pos_x = ((tile_x + 1) * 8) << 4;
       tile_x = pl_pos_x >> 7;
-    }
-    else if (TileAt(tile_x, tile_y) == COLLISION_RIGHT) {
-        tile_y -= 1;
-        pl_pos_y = ((tile_y * 8) << 4);
-        pl_vel_y = -plat_walk_vel;
     }
   }
 
   // Right Collision
   if (pl_vel_x > 0) {
-    if (TileAt(tile_x + 1, tile_y_ceil) & COLLISION_LEFT ||
-        TileAt(tile_x + 1, tile_y) & COLLISION_ALL) {
+    if (TileAt(tile_x + 1, tile_y) & COLLISION_LEFT ||
+        TileAt(tile_x + 1, tile_y_ceil) & COLLISION_LEFT) {
       pl_vel_x = 0;
       pl_pos_x = (tile_x * 8) << 4;
       tile_x = pl_pos_x >> 7;
-    }
-    else if (TileAt(tile_x + 1, tile_y) == COLLISION_LEFT) {
-        tile_y -= 1;
-        pl_pos_y = ((tile_y * 8) << 4);
-        pl_vel_y = -plat_walk_vel;
     }
   }
 
@@ -251,7 +241,6 @@ void Update_Platform() {
     } else {
       grounded = FALSE;
 
-      /*
       // Ceiling Collision
       if (pl_vel_y < 0) {
         if (TileAt(tile_x, tile_y - 1) & COLLISION_BOTTOM ||  // Left Edge
@@ -262,7 +251,6 @@ void Update_Platform() {
           pl_pos_y = (((tile_y + 1) * 8) << 4);
         }
       }
-      */
     }
   }
 
