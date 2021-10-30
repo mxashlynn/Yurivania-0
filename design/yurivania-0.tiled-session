@@ -93,7 +93,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 341.5,
+                "x": 341.25,
                 "y": 159
             }
         },
@@ -125,15 +125,15 @@
             "scale": 5.632142857142857,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.16994292961319,
-                "y": 72.08623969562461
+                "x": 76.25871908687381,
+                "y": 72.26379201014583
             }
         },
         "backgrounds/screen_2-title.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 52,
+                "x": 52.125,
                 "y": 74
             }
         },
@@ -236,6 +236,8 @@
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
+        "backgrounds/screen_2-title.tmx",
+        "backgrounds/screen_1-logo.tmx",
         "one-room-measurement.tmx",
         "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area_3-cliff_face.tmx",
@@ -243,8 +245,6 @@
         "backgrounds/area_4-summit.tmx",
         "working-map.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
-        "backgrounds/screen_2-title.tmx",
-        "backgrounds/screen_1-logo.tmx",
         "backgrounds/working-puzzle_1.tmx",
         "backgrounds/working-puzzle_4.tmx",
         "backgrounds/working-puzzle_6.tmx"
