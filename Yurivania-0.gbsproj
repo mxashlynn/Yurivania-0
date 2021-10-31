@@ -54329,7 +54329,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "GHOST: Thanks so\nmuch, Tibby and\nStheno.",
+                                                            "YOKO: Thanks so\nmuch, Tibby and\nStheno.",
                                                             "We wouldn't have\nmade it without\nyou.",
                                                             "See you, one day,\non the other side!"
                                                         ],
@@ -56849,8 +56849,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1592,
-        "worldScrollY": 2944,
+        "worldScrollX": 924,
+        "worldScrollY": 844,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
