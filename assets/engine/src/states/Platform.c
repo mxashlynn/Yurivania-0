@@ -152,6 +152,7 @@ void Update_Platform() {
   tile_x = pl_pos_x >> 7;
   tile_y = pl_pos_y >> 7;
 
+  // Interact
   if (grounded && INPUT_A_PRESSED) {
     if (player.dir.x == 1) {
       hit_actor = ActorAtTile(tile_x + 2, tile_y, TRUE);
