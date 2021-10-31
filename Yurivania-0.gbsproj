@@ -929,7 +929,7 @@
                                                         "id": "ed31da82-96ad-4bd0-b594-8d632a5b806e",
                                                         "command": "EVENT_MUSIC_PLAY",
                                                         "args": {
-                                                            "musicId": "7f481731-129d-4ba9-b4ce-f285cc780308",
+                                                            "musicId": "e2bcd376-6d0c-41c0-b750-8137c8600179",
                                                             "loop": true
                                                         }
                                                     },
@@ -28127,7 +28127,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Party Chat",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -39394,7 +39394,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Set Up Menu Button"
                     },
                     "children": {
@@ -40180,6 +40180,19 @@
                             "args": {
                                 "variable": "1",
                                 "__collapse": true
+                            }
+                        },
+                        {
+                            "id": "a0b0a8c8-c9c8-43be-9b4b-b474da5600f7",
+                            "command": "EVENT_MUSIC_STOP",
+                            "args": {}
+                        },
+                        {
+                            "id": "b41e26ba-8387-44e2-ab26-dafc343298ce",
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "e2bcd376-6d0c-41c0-b750-8137c8600179",
+                                "loop": true
                             }
                         },
                         {
@@ -46206,7 +46219,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Party Chat",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -46318,7 +46331,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Set Up Menu Button"
                     },
                     "children": {
@@ -46769,7 +46782,7 @@
             "playerHit3Script": [],
             "id": "728e0af7-7544-4f30-8c2f-ab0dfbc87bc0",
             "x": 299.55555555555566,
-            "y": 731.1111111111119,
+            "y": 730.6666666666674,
             "actors": [
                 {
                     "name": "Lucy",
@@ -56635,8 +56648,16 @@
             "name": "yurivania-mountains",
             "filename": "yurivania-mountains.mod",
             "settings": {},
-            "inode": "44191571343639881",
-            "_v": 1635658202381
+            "inode": "8162774325942517",
+            "_v": 1635660098849
+        },
+        {
+            "id": "3a1bfe0e-63df-4a2f-88ed-474110b727b2",
+            "name": "yurivania-mountains.AutoSave.20211030.225633.mod",
+            "filename": "yurivania-mountains.mod.AutoSave.20211030.225633.mod",
+            "settings": {},
+            "inode": "15481123720411240",
+            "_v": 1635659798607
         },
         {
             "id": "7f481731-129d-4ba9-b4ce-f285cc780308",
@@ -56849,8 +56870,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 924,
-        "worldScrollY": 844,
+        "worldScrollX": 730,
+        "worldScrollY": 0,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
