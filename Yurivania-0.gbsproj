@@ -28126,8 +28126,8 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__label": "Set Up Party Talk",
-                        "__collapse": true
+                        "__label": "Set Up Party Chat",
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -28139,23 +28139,23 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "If Not Menu Open",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
                                         {
-                                            "id": "f8f2f021-cf42-4a10-b6ee-69f4f5672373",
+                                            "id": "caf700a9-b0e8-4e5a-bd2e-3a3e1cb8f4d0",
                                             "command": "EVENT_IF_FALSE",
                                             "args": {
                                                 "variable": "6",
                                                 "__collapseElse": false,
-                                                "__label": "Party Talk",
-                                                "__collapse": true
+                                                "__label": "Party Chat",
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "id": "70f580f9-48c8-4a9f-9d77-c1de8f45ed71",
+                                                        "id": "9e0de6d9-847a-49b8-b91d-62bf012f5c8b",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -28168,25 +28168,26 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "cbbdc483-4342-40d8-8f4e-6843bb9cdad5",
+                                                        "id": "a0846ecf-94c0-49f3-96e8-eec64e4e1ef9",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "false": [
                                                     {
-                                                        "id": "cf3e37ba-c60d-4b6a-a718-380d4c172d9b",
+                                                        "id": "4b7e5080-3486-47b9-ad8d-85412f0ce886",
                                                         "command": "EVENT_IF_VALUE",
                                                         "args": {
                                                             "variable": "8",
                                                             "operator": "==",
                                                             "comparator": "0",
                                                             "__collapseElse": false,
-                                                            "__label": "If Haven't Found Everyone"
+                                                            "__label": "If Haven't Found Everyone",
+                                                            "__collapse": true
                                                         },
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "4041ad2c-b550-4cb2-88b4-251576e583e3",
+                                                                    "id": "e55009ba-9ee6-490c-8e85-55f99672f451",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
@@ -28196,25 +28197,26 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "d1c5faee-528a-4af3-896f-b4b17408a596",
+                                                                    "id": "91cfbc51-8fb5-429b-ba02-da2e6de084c1",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ],
                                                             "false": [
                                                                 {
-                                                                    "id": "3236ebaa-0879-4997-9d73-1e4bcc6cd451",
+                                                                    "id": "345ba7c2-e8db-4e8d-8ae5-73b5e165cc0a",
                                                                     "command": "EVENT_IF_VALUE",
                                                                     "args": {
                                                                         "variable": "8",
                                                                         "operator": "==",
                                                                         "comparator": 1,
                                                                         "__collapseElse": false,
-                                                                        "__label": "Conjugate Dialogue"
+                                                                        "__label": "Conjugate Dialogue",
+                                                                        "__collapse": false
                                                                     },
                                                                     "children": {
                                                                         "true": [
                                                                             {
-                                                                                "id": "624efeb4-a624-4fd2-b382-540004af6c41",
+                                                                                "id": "c2ddb293-fbcc-4b0c-9cd4-b2fd532dea8b",
                                                                                 "command": "EVENT_TEXT",
                                                                                 "args": {
                                                                                     "text": [
@@ -28225,13 +28227,13 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": "2b093884-4a51-42cd-8263-0c14842e1a85",
+                                                                                "id": "43e97077-958a-45fc-a491-8eccfa9c3e29",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ],
                                                                         "false": [
                                                                             {
-                                                                                "id": "808cfafd-2312-4d4b-bed0-a95ba5762052",
+                                                                                "id": "830c44f7-ab01-470d-8ef8-c071246118ff",
                                                                                 "command": "EVENT_TEXT",
                                                                                 "args": {
                                                                                     "text": [
@@ -28242,21 +28244,384 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "id": "44729dea-286a-4254-ad06-dd14dbace55a",
+                                                                                "id": "17a93729-8d13-4a24-b325-0fdf5c397efc",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ]
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "37c8d050-4498-4286-aa45-08fdc956e08a",
+                                                                    "id": "060b18fc-60d7-497b-9601-0f9af46bd652",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ]
                                                         }
                                                     },
                                                     {
-                                                        "id": "98b6463e-4355-4c83-ae5e-55f19f7d6bfb",
+                                                        "id": "b3a1e35f-4148-4d06-b60e-1511faaa2929",
+                                                        "command": "EVENT_VARIABLE_MATH",
+                                                        "args": {
+                                                            "vectorX": "L0",
+                                                            "operation": "set",
+                                                            "other": "rnd",
+                                                            "vectorY": "L0",
+                                                            "value": "1",
+                                                            "minValue": 0,
+                                                            "maxValue": 5,
+                                                            "clamp": false,
+                                                            "__collapse": false,
+                                                            "__label": "Pick Random Number"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "db53ffc6-7b44-4fa0-b338-d07e6bfc0fde",
+                                                        "command": "EVENT_SWITCH",
+                                                        "args": {
+                                                            "variable": "L0",
+                                                            "choices": 5,
+                                                            "__collapseCase0": true,
+                                                            "value0": 0,
+                                                            "__collapseCase1": true,
+                                                            "value1": 1,
+                                                            "__collapseCase2": true,
+                                                            "value2": 2,
+                                                            "__collapseCase3": true,
+                                                            "value3": 3,
+                                                            "__collapseCase4": true,
+                                                            "value4": 4,
+                                                            "__collapseCase5": false,
+                                                            "value5": 5,
+                                                            "__collapseCase6": false,
+                                                            "value6": 7,
+                                                            "__collapseCase7": false,
+                                                            "value7": 8,
+                                                            "__collapseCase8": false,
+                                                            "value8": 9,
+                                                            "__collapseCase9": false,
+                                                            "value9": 10,
+                                                            "__collapseCase10": false,
+                                                            "value10": 11,
+                                                            "__collapseCase11": false,
+                                                            "value11": 12,
+                                                            "__collapseCase12": false,
+                                                            "value12": 13,
+                                                            "__collapseCase13": false,
+                                                            "value13": 14,
+                                                            "__collapseCase14": false,
+                                                            "value14": 15,
+                                                            "__collapseCase15": false,
+                                                            "value15": 16,
+                                                            "__collapseElse": true
+                                                        },
+                                                        "children": {
+                                                            "true0": [
+                                                                {
+                                                                    "id": "f88e6293-06d4-437e-baaa-ddad6392308c",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "12",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "a7533362-e808-4db6-9427-f02119aaa4c2",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "YOKO: I'm so glad\nyou both were\ngoing this way."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "a0134f94-ccd9-46d0-a1bb-06efbbbcad2b",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "70c4af2d-f66e-4983-a5fc-0a3da77bfeb2",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "f80ea921-18c9-4b5b-8011-6971eafb8497",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true1": [
+                                                                {
+                                                                    "id": "32149466-52a3-4973-8f2e-dc4b9b4ed46e",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "13",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "e542cf1a-24a8-4daa-b833-f14a90d95765",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "PRISCA: Your leaps\nare really\nimpressive^",
+                                                                                        "I sure couldn't\nmove like that\nback when I had\na body!"
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "7140f02b-5ce5-4aa0-ad13-8dd160764291",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "361e2ee0-8242-435a-80ba-ade1e2f2d815",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "8fc09361-2ba9-47e3-9417-7a8f123cb07c",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true2": [
+                                                                {
+                                                                    "id": "769baeb7-a372-44da-a7a1-c18d95a06317",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "14",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "23b58c90-e5aa-4bb9-866f-6c7fad5cf895",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "STELLA: Such a\nbeautiful Soul\nNight!",
+                                                                                        "What better way to\nspend it than in\nthe mountains~~"
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "42ccdab4-79e6-4e04-9b6c-3746fee6e12a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "63ef3480-091d-42c5-96bf-4de518da7f1b",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "6c5ebf8a-7a3d-45fd-b67b-84c45cf0471f",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true3": [
+                                                                {
+                                                                    "id": "247bef51-4d1a-41e7-90d1-74c9a290a5e2",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "15",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "52652aa8-215b-48ec-8b13-037ed70dd84d",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "LYDIE: I'm still\nfeeling a bit\nwoozy, to be\nhonest."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "bcc45123-b37d-41c0-81ab-d02b9910919b",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "0a8f2d31-7311-4b9b-a4ac-3934569ebf99",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "00b941be-24dc-429f-9c5b-49f911c77209",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true4": [
+                                                                {
+                                                                    "id": "7fb43597-cfa3-426f-af48-9ce795134547",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "16",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "f238785b-c03a-485a-8edf-7b759f89c4d8",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "ERZSEBET: Must've\nbeen quite a job\nto build all\nthis^."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "7f9b7b89-829e-4b72-8940-0941819266a1",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "b7aba5d0-7bfd-4013-80c8-a122e2749746",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "03b9380a-8f3a-4f40-9fc7-b102b4aa6a50",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true5": [
+                                                                {
+                                                                    "id": "9eb6d471-83ce-4558-9efb-47680f81719c",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true6": [
+                                                                {
+                                                                    "id": "cc205402-e991-4fa8-8fdd-c913b8c7c312",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true7": [
+                                                                {
+                                                                    "id": "023683d4-ab08-4c18-845c-38105048bdc5",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true8": [
+                                                                {
+                                                                    "id": "34c60345-ee3e-4915-9d2d-14aea7e56f38",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true9": [
+                                                                {
+                                                                    "id": "d79ebcf5-ab68-4a92-9a64-401f096a4b46",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true10": [
+                                                                {
+                                                                    "id": "aa98b0ce-2985-4466-9277-061fe0694b4a",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true11": [
+                                                                {
+                                                                    "id": "1d24a99d-33e3-47d0-ba6d-2fb71a8eb457",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true12": [
+                                                                {
+                                                                    "id": "9f262bb5-4469-49b4-b5c8-c0dcfa9ed48e",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true13": [
+                                                                {
+                                                                    "id": "ab8835bd-4992-4cdc-a78b-41ecbc950fdd",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true14": [
+                                                                {
+                                                                    "id": "736eb1c3-1e40-43ed-b0b5-4d904d29cda5",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true15": [
+                                                                {
+                                                                    "id": "b4ba3114-4095-444d-8bd8-c9c1bcff4c0c",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "ce301930-d078-4d15-b3da-1deb0915fdc2",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "16",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "556eb0f3-f7bf-4b88-a69a-2cd53f9e47ab",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "Maria: ^ ^",
+                                                                                        "It means a lot\nthat the people\nhere built a\nSoul Portal",
+                                                                                        "Not everyone\ntreats ghosts so\nwell."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "e7063bfe-8c4a-4131-a947-f1627807ed30",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "d3211f91-a35d-4d93-9ef6-2f4202cce754",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "47c93761-db4b-4315-8910-c483ba36de44",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "0d355d00-8b2b-4f09-b290-0401dfd7adf2",
                                                         "command": "EVENT_END"
                                                     }
                                                 ]
@@ -28304,7 +28669,7 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "If Not Menu Open",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -28443,8 +28808,8 @@
                                                         "args": {
                                                             "variable": "6",
                                                             "__collapseElse": false,
-                                                            "__label": "Party Talk",
-                                                            "__collapse": true
+                                                            "__label": "Party Chat",
+                                                            "__collapse": false
                                                         },
                                                         "children": {
                                                             "true": [
@@ -28503,7 +28868,8 @@
                                                                                     "operator": "==",
                                                                                     "comparator": 1,
                                                                                     "__collapseElse": false,
-                                                                                    "__label": "Conjugate Dialogue"
+                                                                                    "__label": "Conjugate Dialogue",
+                                                                                    "__collapse": true
                                                                                 },
                                                                                 "children": {
                                                                                     "true": [
@@ -28544,6 +28910,369 @@
                                                                             },
                                                                             {
                                                                                 "id": "3b4a31f8-24c8-4e87-a509-a6eef511c8e6",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "ddc382b5-f9bb-4768-aae2-3f0023d47567",
+                                                                    "command": "EVENT_VARIABLE_MATH",
+                                                                    "args": {
+                                                                        "vectorX": "L0",
+                                                                        "operation": "set",
+                                                                        "other": "rnd",
+                                                                        "vectorY": "L0",
+                                                                        "value": "1",
+                                                                        "minValue": 0,
+                                                                        "maxValue": 5,
+                                                                        "clamp": false,
+                                                                        "__collapse": false,
+                                                                        "__label": "Pick Random Number"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "d6222d25-c9d0-49c7-b818-31ef61850dba",
+                                                                    "command": "EVENT_SWITCH",
+                                                                    "args": {
+                                                                        "variable": "L0",
+                                                                        "choices": 5,
+                                                                        "__collapseCase0": true,
+                                                                        "value0": 0,
+                                                                        "__collapseCase1": true,
+                                                                        "value1": 1,
+                                                                        "__collapseCase2": true,
+                                                                        "value2": 2,
+                                                                        "__collapseCase3": true,
+                                                                        "value3": 3,
+                                                                        "__collapseCase4": true,
+                                                                        "value4": 4,
+                                                                        "__collapseCase5": false,
+                                                                        "value5": 5,
+                                                                        "__collapseCase6": false,
+                                                                        "value6": 7,
+                                                                        "__collapseCase7": false,
+                                                                        "value7": 8,
+                                                                        "__collapseCase8": false,
+                                                                        "value8": 9,
+                                                                        "__collapseCase9": false,
+                                                                        "value9": 10,
+                                                                        "__collapseCase10": false,
+                                                                        "value10": 11,
+                                                                        "__collapseCase11": false,
+                                                                        "value11": 12,
+                                                                        "__collapseCase12": false,
+                                                                        "value12": 13,
+                                                                        "__collapseCase13": false,
+                                                                        "value13": 14,
+                                                                        "__collapseCase14": false,
+                                                                        "value14": 15,
+                                                                        "__collapseCase15": false,
+                                                                        "value15": 16,
+                                                                        "__collapseElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true0": [
+                                                                            {
+                                                                                "id": "248116bd-8d5d-46a4-92ec-5770264f17db",
+                                                                                "command": "EVENT_IF_TRUE",
+                                                                                "args": {
+                                                                                    "variable": "12",
+                                                                                    "__collapseElse": false,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "4e7b6ae5-0ea3-4d0f-828d-09c24f284bb6",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "YOKO: I'm so glad\nyou both were\ngoing this way."
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "213069e2-6bfd-4c2b-a99d-ca289852d485",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "e073081e-cb27-4da2-a675-09ecb6e62bbd",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "05a29ee5-86b1-45c4-a784-185852243e63",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true1": [
+                                                                            {
+                                                                                "id": "d1b1a1f0-7a4a-40e6-9325-caf128109765",
+                                                                                "command": "EVENT_IF_TRUE",
+                                                                                "args": {
+                                                                                    "variable": "13",
+                                                                                    "__collapseElse": false,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "5cee089d-e3ae-4bc3-bdd6-cc3fd44337e5",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "PRISCA: Your leaps\nare really\nimpressive^",
+                                                                                                    "I sure couldn't\nmove like that\nback when I had\na body!"
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "19a38d2a-f2ea-4cec-ac7b-6eda258301ea",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "bb18ed7e-5e1c-47ab-8f41-a7cf2a318aef",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "0b164fa7-5e9f-4038-975e-7a1ba15e03c7",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true2": [
+                                                                            {
+                                                                                "id": "4a3923d6-7030-487c-ab2e-89732a08fda6",
+                                                                                "command": "EVENT_IF_TRUE",
+                                                                                "args": {
+                                                                                    "variable": "14",
+                                                                                    "__collapseElse": false,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "4bd228c5-7920-4292-ab9f-0ba3a5bfe651",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "STELLA: Such a\nbeautiful Soul\nNight!",
+                                                                                                    "What better way to\nspend it than in\nthe mountains~~"
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "8377149f-95d2-4886-8361-ef7a17e39a54",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "d0db1d0d-c980-41c9-a5f6-a0bd309658b8",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "6daf0774-fd03-48da-b131-ce38e9a5ba74",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true3": [
+                                                                            {
+                                                                                "id": "74eb7dc5-5cb2-4262-94c3-cd3aa4d309b4",
+                                                                                "command": "EVENT_IF_TRUE",
+                                                                                "args": {
+                                                                                    "variable": "15",
+                                                                                    "__collapseElse": false,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "77ee2231-ed5a-4b6d-bf20-79db9ca9b17a",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "LYDIE: I'm still\nfeeling a bit\nwoozy, to be\nhonest."
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "9209d788-265d-4705-bfa1-2941110f85b9",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "4b6403eb-317c-4fc7-8381-b467da424419",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "1c5f0161-fe31-4e38-b130-4e55ef2e00b9",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true4": [
+                                                                            {
+                                                                                "id": "438e624a-23c5-4801-8130-12120dbc0fbc",
+                                                                                "command": "EVENT_IF_TRUE",
+                                                                                "args": {
+                                                                                    "variable": "16",
+                                                                                    "__collapseElse": false,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "4df3620b-2ebd-481e-95d7-8f7903d2d968",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "ERZSEBET: Must've\nbeen quite a job\nto build all\nthis^."
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "13c8c26a-0484-487c-97c8-962f33c7094d",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "d987c381-3d4a-44d5-878b-ca790e9f022e",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "b3f4de51-805d-44c4-a103-8f9c45674b93",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true5": [
+                                                                            {
+                                                                                "id": "86e9ce73-6183-4641-b3ea-50fd82a3cc55",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true6": [
+                                                                            {
+                                                                                "id": "64355d5f-51ea-4d57-8e0c-b487e3dbc604",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true7": [
+                                                                            {
+                                                                                "id": "8d7931ca-0dfe-4ea4-a818-7024b925503a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true8": [
+                                                                            {
+                                                                                "id": "7a2f8144-d5bd-4c0c-8148-918d3b71d941",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true9": [
+                                                                            {
+                                                                                "id": "f61af7a6-b425-4340-b871-bfb59330fb23",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true10": [
+                                                                            {
+                                                                                "id": "9cf712c8-0caa-4902-a033-46c6a7a19547",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true11": [
+                                                                            {
+                                                                                "id": "4c193845-ba6b-4668-ab00-ca0ae41d9c3e",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true12": [
+                                                                            {
+                                                                                "id": "5c5b8d96-90f7-47d6-959b-07a12f135186",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true13": [
+                                                                            {
+                                                                                "id": "7132c866-b34c-41a2-b072-06a010f5f84d",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true14": [
+                                                                            {
+                                                                                "id": "eedd3337-e911-4a57-ac7b-b50aa171232e",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true15": [
+                                                                            {
+                                                                                "id": "dd23db94-48f8-49ef-bce5-d46d4bf297db",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "627dc385-a4e9-4fe8-9f8e-a7f0b64d5489",
+                                                                                "command": "EVENT_IF_TRUE",
+                                                                                "args": {
+                                                                                    "variable": "16",
+                                                                                    "__collapseElse": false,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "243281d2-12ef-43c9-8d6f-5d41bcafbfce",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": [
+                                                                                                    "Maria: ^ ^",
+                                                                                                    "It means a lot\nthat the people\nhere built a\nSoul Portal",
+                                                                                                    "Not everyone\ntreats ghosts so\nwell."
+                                                                                                ],
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "040e581a-da2d-4488-b9b5-390d4b9f1e8a",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "f577c122-92f9-469b-a771-e86107b5a541",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "8156c811-c0fb-446b-b074-a5bc0bec255a",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ]
@@ -29133,7 +29862,7 @@
                     "y": 97
                 },
                 {
-                    "name": "Ghost 1",
+                    "name": "Yoko (Ghost 1)",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -29164,7 +29893,7 @@
                                             "__collapseElse": false,
                                             "__label": "Rescue Convo",
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -29249,10 +29978,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "GHOST: Thanks so\nmuch!  How\nembarrassing\nthis has been!"
+                                                            "GHOST: Thanks so\nmuch!  How\nembarrassing\nthis has been!",
+                                                            "My name's Yoko. \nI'm not normally\nso easily lost!"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -29528,7 +30258,7 @@
                     "y": 57
                 },
                 {
-                    "name": "Ghost 2",
+                    "name": "Prisca (Ghost 2)",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -29559,7 +30289,7 @@
                                             "__collapseElse": false,
                                             "__label": "Rescue Convo",
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -29645,7 +30375,8 @@
                                                     "args": {
                                                         "text": [
                                                             "GHOST: Wow, you're\nquite the dare\ndevil!!",
-                                                            "I'm gonna stick\nwith you till we\nget to the top!"
+                                                            "I'm gonna stick\nwith you till we\nget to the top!",
+                                                            "You can call me\nPrisca."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -30003,7 +30734,7 @@
                     "y": 32
                 },
                 {
-                    "name": "Ghost 3",
+                    "name": "Stella (Ghost 3)",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -30034,7 +30765,7 @@
                                             "__collapseElse": false,
                                             "__label": "Rescue Convo",
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -30122,10 +30853,11 @@
                                                             "GHOST: Oh, hi!",
                                                             "The stars in the\nmountains are\nalways",
                                                             "so beautiful on\nSoul Night.  I got\nquite distracted!",
-                                                            "If it's all right,\nI'll follow you to\nthe summit."
+                                                            "I'm Stella, by the\nway.  You two\ndwell around here?",
+                                                            "If it's all right,\nI'll follow you\nboth to the\nsummit."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -30480,7 +31212,7 @@
                     "y": 63
                 },
                 {
-                    "name": "Ghost 4",
+                    "name": "Lydie (Ghost 4)",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -30511,7 +31243,7 @@
                                             "__collapseElse": false,
                                             "__label": "Rescue Convo",
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -30620,7 +31352,29 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "GHOST: Wonderful!"
+                                                            "GHOST: Wonderful!\nCall me Lydie~! \nWhat are your\nnames?"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "5dae31db-6b60-4bd0-af14-96ba5415f810",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: I'm Tibby,\nand this is\nStheno. Glad to\nmeet you!"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "e5f1ce05-d773-4e17-a850-43995c599b16",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "LYDIE: Likewise!"
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -30978,7 +31732,7 @@
                     "y": 34
                 },
                 {
-                    "name": "Ghost 5",
+                    "name": "Erzsebet (Ghost 5)",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -31009,7 +31763,7 @@
                                             "__collapseElse": false,
                                             "__label": "Rescue Convo",
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -31130,7 +31884,8 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "GHOST: Well,\naren't you a\nblessing!  Let's\nget going!"
+                                                            "GHOST: Well,\naren't you a\nblessing!",
+                                                            "I'm Erzsebet.\nLet's get going!"
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -31488,7 +32243,7 @@
                     "y": 6
                 },
                 {
-                    "name": "Ghost 6",
+                    "name": "Maria (Ghost 6)",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "d28c9a57-cbf3-4443-b3cc-5ba72af7e770",
@@ -31616,8 +32371,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "GHOST: Oh, thank\ngoodness!  People!",
+                                                            "GHOST: Oh, thank\ngoodness! People!",
                                                             "I was afraid I'd\nbe stuck here all\nnight!",
+                                                            "I'm Maria. I was\nan acrobat in\nlife.",
+                                                            "I tried to take a\nshort cut.",
                                                             "I thought these\nropes would lead\nto the top,",
                                                             "but they end at\nthis platform.",
                                                             "Y'all're my heroes\nfor coming out\nhere to save me!"
@@ -38564,15 +39321,48 @@
                                 "children": {
                                     "true": [
                                         {
-                                            "id": "d4595b1f-2f31-4da5-a344-3f0909a4d620",
-                                            "command": "EVENT_TEXT",
+                                            "id": "576ae3f6-8c97-45b5-81f8-6b2084888864",
+                                            "command": "EVENT_IF_TRUE",
                                             "args": {
-                                                "text": [
-                                                    "TIBBY: The\nmountain is quite\nsteep^.",
-                                                    "Let's follow the\npath left and take\nthe stairway."
+                                                "variable": "17",
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "f965377b-2eb3-46f6-a345-b13e291260f8",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "MARIA: Is this\nyour home? I love\nthe look of it!",
+                                                                "Maybe I can visit\nsomeday^."
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "d4178c2b-e47a-406c-88b2-dd15dc7f1b87",
+                                                        "command": "EVENT_END"
+                                                    }
                                                 ],
-                                                "avatarId": "",
-                                                "__collapse": false
+                                                "false": [
+                                                    {
+                                                        "id": "d4595b1f-2f31-4da5-a344-3f0909a4d620",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "TIBBY: The\nmountain is quite\nsteep^.",
+                                                                "Let's follow the\npath left and take\nthe stairway."
+                                                            ],
+                                                            "avatarId": "",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "a431913e-e7ae-4d3b-a8ab-c79678fab30e",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -38604,7 +39394,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Set Up Menu Button"
                     },
                     "children": {
@@ -38669,7 +39459,7 @@
                                                 "__collapseElse": false,
                                                 "__disableElse": true,
                                                 "__label": "Respond to Player Selection",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true0": [
@@ -38754,20 +39544,54 @@
                                                         "id": "05bc6557-dcbb-46ea-9cf1-7400703efe51",
                                                         "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "__collapse": true,
+                                                            "__collapse": false,
                                                             "__label": "Party Chat"
                                                         },
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "1db24b75-072b-4fcb-adb3-6f718a940d4c",
-                                                                    "command": "EVENT_TEXT",
+                                                                    "id": "f1137d18-e647-48f7-b7ee-74dd59fac1c3",
+                                                                    "command": "EVENT_IF_TRUE",
                                                                     "args": {
-                                                                        "text": [
-                                                                            "TIBBY: The\nmountain is quite\nsteep^.",
-                                                                            "Let's follow the\nleft and take the\nstairway."
+                                                                        "variable": "17",
+                                                                        "__collapseElse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "9277fb32-4717-40c4-acc5-04bb7dcccf8d",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "MARIA: Is this\nyour home? I love\nthe look of it!",
+                                                                                        "Maybe I can visit\nsomeday^."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "dda2c75f-597b-4def-ac31-4fc1df702613",
+                                                                                "command": "EVENT_END"
+                                                                            }
                                                                         ],
-                                                                        "avatarId": ""
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "589d4f75-4bdf-4fe1-8537-8a83c69d2b37",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "TIBBY: The\nmountain is quite\nsteep^.",
+                                                                                        "Let's follow the\npath left and take\nthe stairway."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "12a4d1ad-cd13-475e-be66-bdc7bcbadbd7",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
@@ -45382,7 +46206,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Party Chat",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -45407,7 +46231,62 @@
                                                 ],
                                                 "avatarId": "",
                                                 "__collapse": false,
-                                                "__label": "Party Talk"
+                                                "__label": "Party Chat"
+                                            }
+                                        },
+                                        {
+                                            "id": "a687bdde-7e05-4f21-8dbd-8e71c88959c6",
+                                            "command": "EVENT_ACTOR_GET_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "vectorX": "L0",
+                                                "vectorY": "L1"
+                                            }
+                                        },
+                                        {
+                                            "id": "bad16a99-eba1-4186-9734-f9cacf29163d",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": ">",
+                                                "comparator": 43,
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "a9af6ca5-d13f-490a-b92e-f430591cc571",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "STELLA: What a\nview!!"
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "be3b85af-4065-43e4-ab38-1143802508a2",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "13c54131-e9b7-4f81-80fb-8246a296fc46",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "PRISCA: My\ndaughter and I\nused to visit a",
+                                                                "spot like this\nwhen we made\nsacrifice to our\ngoddesses.",
+                                                                "That brings back\nhappy memories."
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "d058e6b1-c2f0-437a-b439-961a0b34503e",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
                                             }
                                         },
                                         {
@@ -45439,7 +46318,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Set Up Menu Button"
                     },
                     "children": {
@@ -45452,7 +46331,7 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "If Not Menu Open",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -45595,6 +46474,61 @@
                                                             "avatarId": "",
                                                             "__collapse": false,
                                                             "__label": "Party Chat"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "f7d18a82-cf3a-4107-bb17-469e8c0bbb91",
+                                                        "command": "EVENT_ACTOR_GET_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "vectorX": "L0",
+                                                            "vectorY": "L1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "60b9be61-a194-4cc3-aa92-548579aaaebd",
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "L0",
+                                                            "operator": ">",
+                                                            "comparator": 43,
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "6bacc8d1-a46d-4049-aac0-2a15a76bc56f",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "STELLA: What a\nview!!"
+                                                                        ],
+                                                                        "avatarId": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "df7cff71-98ba-4a20-97ac-de8678288204",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "da2e2b21-8694-42f7-af53-ac9f5cb8cfb8",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "PRISCA: My\ndaughter and I\nused to visit a",
+                                                                            "spot like this\nwhen we made\nsacrifice to our\ngoddesses.",
+                                                                            "That brings back\nhappy memories."
+                                                                        ],
+                                                                        "avatarId": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "732651b4-68dd-4abd-8f83-6d843604ddf1",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     {
@@ -45835,7 +46769,7 @@
             "playerHit3Script": [],
             "id": "728e0af7-7544-4f30-8c2f-ab0dfbc87bc0",
             "x": 299.55555555555566,
-            "y": 731.5555555555563,
+            "y": 731.1111111111119,
             "actors": [
                 {
                     "name": "Lucy",
@@ -51825,6 +52759,26 @@
                                             }
                                         },
                                         {
+                                            "id": "b17dac8e-1bc1-4acf-a520-ce4f388cee25",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "ERZSEBET: About\ntime!  These\nheights are\ndizzying."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "dbb62862-4b36-46eb-97f9-154942a817a7",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "LYDIE: I can feel\nthe magic.  I'm\nall tingly!"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
                                             "id": "9aafbb2b-c7f5-4fe6-a338-08ff0490304a",
                                             "command": "EVENT_END"
                                         }
@@ -51853,7 +52807,7 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Set Up Menu Button"
                     },
                     "children": {
@@ -52009,6 +52963,26 @@
                                                             "avatarId": "",
                                                             "__collapse": false,
                                                             "__label": "Party Chat"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "9311ab70-a4af-42a8-93b1-8660ce6615c2",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "ERZSEBET: About\ntime!  These\nheights are\ndizzying."
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "026f91b4-3151-4f9a-abd8-e05306131bf4",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "LYDIE: I can feel\nthe magic.  I'm\nall tingly!"
+                                                            ],
+                                                            "avatarId": ""
                                                         }
                                                     },
                                                     {
@@ -55724,27 +56698,27 @@
         },
         {
             "id": "12",
-            "name": "Rescued Ghost 1"
+            "name": "Rescued Yoko"
         },
         {
             "id": "13",
-            "name": "Rescued Ghost 2"
+            "name": "Rescued Prisca"
         },
         {
             "id": "14",
-            "name": "Rescued Ghost 3"
+            "name": "Rescued Stella"
         },
         {
             "id": "15",
-            "name": "Rescued Ghost 4"
+            "name": "Rescued Lydie"
         },
         {
             "id": "16",
-            "name": "Rescued Ghost 5"
+            "name": "Rescued Erzsebet"
         },
         {
             "id": "17",
-            "name": "Rescued Ghost 6"
+            "name": "Rescued Maria"
         },
         {
             "id": "18",
@@ -55829,6 +56803,14 @@
         {
             "id": "b02afe26-45f3-4d86-bcc9-5917b21bb280__L0",
             "name": "Quest Complete"
+        },
+        {
+            "id": "73ad3210-5991-4718-8740-7a45e7c1fece__L0",
+            "name": "Random Result"
+        },
+        {
+            "id": "728e0af7-7544-4f30-8c2f-ab0dfbc87bc0__L0",
+            "name": "Player X"
         }
     ],
     "engineFieldValues": [
@@ -55867,9 +56849,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 0,
-        "worldScrollY": 770,
-        "zoom": 75,
+        "worldScrollX": 1592,
+        "worldScrollY": 4244,
+        "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
