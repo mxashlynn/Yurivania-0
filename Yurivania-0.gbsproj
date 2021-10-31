@@ -28279,7 +28279,7 @@
                                                         "args": {
                                                             "variable": "L0",
                                                             "choices": 5,
-                                                            "__collapseCase0": true,
+                                                            "__collapseCase0": false,
                                                             "value0": 0,
                                                             "__collapseCase1": true,
                                                             "value1": 1,
@@ -31228,7 +31228,7 @@
                             "id": "3bc1b380-f43c-446d-ad93-481f7bf83470",
                             "command": "EVENT_IF_FALSE",
                             "args": {
-                                "variable": "L4",
+                                "variable": "15",
                                 "__collapseElse": false,
                                 "__disableElse": true,
                                 "__label": "If Not Rescued"
@@ -31567,7 +31567,7 @@
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "15",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     }
                                                 },
                                                 {
@@ -56631,12 +56631,12 @@
             "_v": 1635646004966
         },
         {
-            "id": "42d8cb18-a9f3-457f-8a05-a689d775bb0e",
+            "id": "e2bcd376-6d0c-41c0-b750-8137c8600179",
             "name": "yurivania-mountains",
             "filename": "yurivania-mountains.mod",
             "settings": {},
-            "inode": "24769797950834816",
-            "_v": 1635646004966
+            "inode": "44191571343639881",
+            "_v": 1635658202381
         },
         {
             "id": "7f481731-129d-4ba9-b4ce-f285cc780308",
@@ -56850,7 +56850,7 @@
         "showCollisions": true,
         "showConnections": "selected",
         "worldScrollX": 1592,
-        "worldScrollY": 4244,
+        "worldScrollY": 2944,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
