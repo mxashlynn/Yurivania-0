@@ -6,7 +6,7 @@
 
 Monstergirls work together to help out some lost ghosts~!
 
-This is my entry to **Trans Game Dev Birthday Jam**, a very short game in GB Studio. 
+This is my entry to [Trans Game Dev Birthday Jam](https://itch.io/jam/tgd-jam) and [You Are Haunted Jam](https://itch.io/jam/you-are-haunted), a very short game in GB Studio. 
 
 The Midnight Palace is hosting a major ritual to assist spirits navigating the realms beyond mortality.
 Tibby the skeleton is planning on attending and really wants her friend Stheno to come along.
@@ -17,8 +17,8 @@ This is a side-story and prequel to [Yurivania](https://github.com/mxashlynn/Yur
 
 # Known Issues ⚠️
 
-1. You have to hop up the stairs rather than walk up them.
-
+1. Stair climbing is a little buggy.
+2. You can jump while menus and dialogue boxes are open.
 
 # How to Play 🎮
 
@@ -26,21 +26,12 @@ You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io
 
 ## Game Controls
 
-- Keyboard Controls
-  - WASD Keys = Run, Climb, and Drop from certain platforms.
-  - Z Key = Interact and Confirm Selection.
-  - X Key = Jump and Cancel Selection.
-  - Shift Key = Main Menu (including Select an Item).
-  - Enter Key = Use Selected Item.
-- ROM Controls
-  - D-Pad = Run, Climb, and Drop from certain platforms.
-  - A Button = Interact and Confirm Selection.
-  - B Button = Jump and Cancel Selection.
-  - SELECT Button = Main Menu (including Select an Item).
-  - START Button = Use Selected Item. 
-- Mobile Controls
-  - Same as ROM Controls, but shown on-screen.
-
+- Controls
+  - D-Pad / Arrow Keys = Walk, Climb, and Drop from certain platforms.
+  - A Button / ALT = Jump, Interact, and Confirm Selection.
+  - B Button / CTRL = Cancel Selection or hold to Run.
+  - SELECT / Shift = Open Menu.
+  - START / Enter = Party Chat. 
 
 # Goals 👭👻
 
