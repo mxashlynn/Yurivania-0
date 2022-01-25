@@ -85,15 +85,15 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 257.3333333333333,
-                "y": 430
+                "x": 144.66666666666666,
+                "y": 775
             }
         },
         "backgrounds/area_3-cliff_face.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 319.75,
+                "x": 319.5,
                 "y": 143.5
             }
         },
@@ -143,6 +143,14 @@
             "viewCenter": {
                 "x": 86.56449847323844,
                 "y": 69.13637149276948
+            }
+        },
+        "backgrounds/test_stairs.tmx": {
+            "scale": 5.96125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.01677500524218,
+                "y": 72.13252254141331
             }
         },
         "backgrounds/tiles/yurivania-0.tsx": {
@@ -200,7 +208,7 @@
             "scale": 3.556845238095238,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 92.21655091624132,
+                "x": 92.21655091624133,
                 "y": 80.40833403062506
             }
         },
@@ -233,23 +241,23 @@
     "map.tileWidth": 8,
     "map.width": 60,
     "openFiles": [
-        "backgrounds/area_3-cliff_face.tmx",
+        "one-room-measurement.tmx",
         "backgrounds/area_2-mountain_stair.tmx"
     ],
     "project": "yurivania-0.tiled-project",
     "recentFiles": [
-        "backgrounds/area_3-cliff_face.tmx",
+        "one-room-measurement.tmx",
         "backgrounds/area_2-mountain_stair.tmx",
+        "backgrounds/test_stairs.tmx",
+        "backgrounds/area_3-cliff_face.tmx",
         "backgrounds/screen_2-title.tmx",
         "backgrounds/screen_1-logo.tmx",
-        "one-room-measurement.tmx",
         "backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area_4-summit.tmx",
         "working-map.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/backgrounds/scene-new_wing-before.tmx",
         "backgrounds/working-puzzle_1.tmx",
-        "backgrounds/working-puzzle_4.tmx",
-        "backgrounds/working-puzzle_6.tmx"
+        "backgrounds/working-puzzle_4.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
